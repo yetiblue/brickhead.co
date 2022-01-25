@@ -3,7 +3,7 @@ function CardCategory(props:any){
 
     return(
         <div className="category-wrapper">
-            <p className="category-type">Category</p>
+            <p className="category-type">{props.categoryName}</p>
              {/* <p>{props.title}</p> */}
 
         </div>
