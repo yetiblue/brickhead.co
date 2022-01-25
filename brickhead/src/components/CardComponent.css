@@ -24,8 +24,19 @@ img {
   padding-left: 1em;
   background-color: red;
 }
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .card {
-    width: 50vw;
+
+@media screen and (min-width: 768px) {
+  .card__information {
+    margin-top: 13%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card__information {
+    margin-top: 20%;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .card__information {
+    margin-top: 23%;
   }
 }
