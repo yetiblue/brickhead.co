@@ -2,12 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import CardCategory from "./components/CardCategory"
+import CardInformation from "./components/CardInformation"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
                <CardCategory />
+               <CardInformation />
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>

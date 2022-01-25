@@ -1,0 +1,19 @@
+.information-wrapper {
+  max-width: 100%;
+}
+.information {
+  text-align: left;
+}
+.information__brand {
+  font-size: 1em;
+  color: white;
+  text-decoration: underline;
+}
+.information__title {
+  font-size: 1em;
+  color: white;
+}
+.information__director {
+  font-size: 0.6em;
+  color: white;
+}
