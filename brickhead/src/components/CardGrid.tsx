@@ -7,7 +7,8 @@ interface Card{
     company: string;
     director: string;
 }
-let testGridData = [{
+let testGridData = [
+    {
     category: "Music Video",
     title: "why Hello darkness",
     company: "MTV",
@@ -30,7 +31,6 @@ let testGridData = [{
 }
 ]
  let cardContent = testGridData.map((card) => (
-    <ul className="card-wrapper">
         <li key={card.title} className="card-object">
             <CardComponent
             cardCategory={card.category}
@@ -39,15 +39,15 @@ let testGridData = [{
             cardDirector={card.director}
 
             />
+         
         </li>
         
-    </ul>
   ));
-
+  let gridContent = <ul className="card-wrapper">{cardContent}</ul>
 
 function CardGrid(){
     return(
-        <div className="cardgrid-wrapper">{cardContent}</div>
+        <div className="cardgrid-wrapper">{gridContent}</div>
     )
 }
 export default CardGrid
