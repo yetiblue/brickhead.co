@@ -159,7 +159,7 @@ function Collaborators(props: any) {
         </ul>
       </div>
       <hr></hr>
-      <div>
+      <div className="accolades">
         <ul className="accolades-wrapper">
           <li className="accolades-wrapper__li">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png" />

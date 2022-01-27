@@ -3,6 +3,7 @@
 }
 .about__collaborators {
   max-width: 90vw;
+  margin-bottom: 6em;
 }
 p {
   color: white;
@@ -28,6 +29,9 @@ h4 {
   text-align: left;
   text-decoration: bold;
   padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about__executives {
   display: flex;
@@ -50,10 +54,18 @@ h4 {
 .accolades-wrapper__li {
   padding: 1.4em;
   width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
 }
 hr {
-  margin-top: 2em;
-  width: 70vw;
+  /* margin-top: 6em; */
+  width: 40vw;
+}
+.accolades {
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .about__collaborators {
@@ -72,6 +84,9 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
   }
+  img {
+    max-width: 8vw;
+  }
 }
 
 @media screen and (min-width: 1360px) {
@@ -79,10 +94,15 @@ hr {
     width: 20vw;
     margin-top: 6em;
   }
-  .accolades-wrapper {
-    margin-left: 10em;
+
+  .about__description__p {
+    padding: 20em;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* max-width: 50vw; */
+    /* border: 1px solid white; */
   }
-  img {
-    width: 8vw;
+  .about__collaborators {
+    max-width: 50vw;
   }
 }
