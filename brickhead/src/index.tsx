@@ -2,11 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import CardGrid from "./components/CardGrid"
+import Collaborators from "./components/Collaborators"
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardGrid />
+    <BrowserRouter>
+    <Routes>
+      {/* <CardGrid /> */}
+      <Route path="/" element={<CardGrid />}></Route>
+      <Route path="/about" element={<Collaborators /> }></Route>
+    </Routes>
+  </BrowserRouter>    
   </React.StrictMode>,
   document.getElementById('root')
 );
