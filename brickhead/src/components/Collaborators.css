@@ -55,3 +55,34 @@ hr {
   margin-top: 2em;
   width: 70vw;
 }
+@media screen and (min-width: 768px) {
+  .about__collaborators {
+    max-width: 60vw;
+  }
+  .accolades-wrapper {
+    padding: 5em;
+    padding-top: 0;
+  }
+  .about__description {
+    padding-top: 6em;
+    font-size: 1.2em;
+  }
+  .about__description__p {
+    padding: 3em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .accolades-wrapper__li {
+    width: 20vw;
+    margin-top: 6em;
+  }
+  .accolades-wrapper {
+    margin-left: 10em;
+  }
+  img {
+    width: 8vw;
+  }
+}

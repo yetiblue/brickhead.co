@@ -70,7 +70,7 @@ function Collaborators(props: any) {
           </li>
           <li>
             <h4>Zac Dov Weisel</h4>
-            <p>Zac Dov Wiesel 📍NYC/LA based Director</p>
+            <p>📍NYC/LA based Director</p>
           </li>
           <li>
             <h4>Matthew O’Connor</h4>
