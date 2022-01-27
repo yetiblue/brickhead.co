@@ -1,0 +1,64 @@
+.information-wrapper {
+  max-width: 100%;
+  /* background-color: green; */
+}
+.information {
+  text-align: left;
+  max-width: 100%;
+}
+.information__brand {
+  font-size: 5vw;
+  color: white;
+  text-decoration: underline;
+}
+.information__title {
+  font-size: 5vw;
+  color: white;
+}
+.information__director {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .information__brand {
+    font-size: 1.5vw;
+  }
+  .information__title {
+    font-size: 1.5vw;
+  }
+  .information__director {
+    font-size: 1vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .information__brand {
+    font-size: 1.5vw;
+  }
+  .information__title {
+    font-size: 1.5vw;
+  }
+  .information__director {
+    font-size: 0.9vw;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .information__brand {
+    font-size: 2vw;
+  }
+  .information__title {
+    font-size: 2vw;
+  }
+  .information__director {
+    font-size: 1.2vw;
+  }
+}

@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import CardCategory from "./components/CardCategory"
+import CardGrid from "./components/CardGrid"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-               <CardCategory />
+               <CardGrid />
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>

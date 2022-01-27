@@ -1,0 +1,20 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+.cardgrid-wrapper {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-object {
+    width: 50vw;
+  }
+}
