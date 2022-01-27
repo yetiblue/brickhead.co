@@ -84,7 +84,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
   }
-  img {
+  .accolades__wrapper__img {
     max-width: 8vw;
   }
 }

@@ -1,0 +1,42 @@
+.header-wrapper {
+  max-width: 100vw;
+  max-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(240, 248, 248);
+}
+.header-wrapper__ul {
+  display: flex;
+  flex-direction: column;
+}
+.header-wrapper__li {
+  padding: 1em;
+}
+.header-wrapper__work {
+  padding: 1em;
+}
+.header-wrapper__directors {
+  padding: 1em;
+}
+.header-wrapper__logo {
+  max-width: 20vw;
+  max-height: 10vh;
+}
+.mobile-sidebar {
+  background-color: black;
+  right: 0;
+  top: 0;
+  color: white;
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  padding-top: 2em;
+  font-size: 1.2em;
+}
+.director-names {
+  color: white;
+  text-decoration: none;
+}
