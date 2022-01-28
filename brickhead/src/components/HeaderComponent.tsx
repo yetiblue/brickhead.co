@@ -31,13 +31,27 @@ class HeaderComponent extends React.Component<any, any> {
     super(props);
     this.state = {
       collaborators: collaboratorsList,
+      showSidebar: false,
     };
+    this.openSidebar = this.openSidebar.bind(this);
+  }
+  async openSidebar() {
+    await this.setState({ showSidebar: !this.state.showSidebar }); //setState makes a request and isn't instant
+    console.log("called", this.state.showSidebar);
+
+    if (this.state.showSidebar === true) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
   }
   render() {
-    console.log(this.state.collaborators);
+    let sidebar: string = this.state.showSidebar
+      ? "mobile-sidebar"
+      : "mobile-sidebar-hide";
     let collaboratorList = this.state.collaborators.map(
       (person: StringArray) => (
-        <li key={person.name} className="header-wrapper_directors__li">
+        <li key={person.name} className="header-wrapper__directors__li">
           <a
             className="director-names"
             href={`${person.website}`}
@@ -54,7 +68,10 @@ class HeaderComponent extends React.Component<any, any> {
           className="header-wrapper__logo"
           src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Copy+of+1.png"
         />
-        <div className="mobile-sidebar">
+        <div className={sidebar}>
+          <button onClick={this.openSidebar} className="close-sidebar-button">
+            X
+          </button>
           <ul className="header-wrapper__ul">
             <ul className="header-wrapper__work">
               Work ▾
@@ -72,7 +89,10 @@ class HeaderComponent extends React.Component<any, any> {
             <li className="header-wrapper__li"></li>
           </ul>
         </div>
-        <button className="sidebar-button"> ☰</button>
+        <button onClick={this.openSidebar} className="sidebar-button">
+          {" "}
+          ☰
+        </button>
       </div>
     );
   }

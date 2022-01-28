@@ -17,8 +17,24 @@
 .header-wrapper__work {
   padding: 1em;
 }
+.header-wrapper__work:hover .header-wrapper__work__li {
+  margin-top: 0.5em;
+  padding-left: 1em;
+  display: block;
+}
+.header-wrapper__work__li {
+  display: none;
+}
 .header-wrapper__directors {
   padding: 1em;
+}
+.header-wrapper__directors:hover .header-wrapper__directors__li {
+  margin-top: 0.5em;
+  padding-left: 1em;
+  display: block;
+}
+.header-wrapper__directors__li {
+  display: none;
 }
 .header-wrapper__logo {
   max-width: 20vw;
@@ -36,7 +52,29 @@
   padding-top: 2em;
   font-size: 1.2em;
 }
+.mobile-sidebar-hide {
+  display: none;
+}
 .director-names {
   color: white;
   text-decoration: none;
+}
+.header-wrapper_directors__li {
+  margin-top: 0.5em;
+
+  padding-left: 1em;
+}
+.close-sidebar-button {
+  position: relative;
+  font-size: 1.2em;
+  left: 70%;
+  border: none;
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+.sidebar-button {
+  font-size: 1.5em;
+  border: none;
+  background-color: white;
 }
