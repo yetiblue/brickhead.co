@@ -37,8 +37,8 @@
   display: none;
 }
 .header-wrapper__logo {
-  max-width: 20vw;
-  max-height: 10vh;
+  max-width: 15vw;
+  max-height: 7vh;
 }
 .mobile-sidebar {
   background-color: black;
@@ -77,4 +77,96 @@
   font-size: 1.5em;
   border: none;
   background-color: white;
+}
+.header-wrapper__ul-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-button {
+    font-size: 2.3em;
+  }
+  .header-wrapper__ul {
+    font-size: 1.4em;
+  }
+  .close-sidebar-button {
+    font-size: 1.5em;
+    left: 85%;
+  }
+  .header-wrapper__logo {
+    max-width: 10vw;
+    max-height: 6vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mobile-sidebar {
+    max-width: 50vw;
+  }
+  .header-wrapper__ul {
+    margin-top: -3em;
+    font-size: 1.3em;
+  }
+  .header-wrapper__logo {
+    max-width: 7vw;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .header-wrapper {
+    justify-content: left;
+  }
+
+  .header-wrapper__logo {
+    max-width: 6vw;
+    max-height: 8vh;
+  }
+  .sidebar-button {
+    display: none;
+  }
+  .header-wrapper__ul-desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    max-height: 5vh;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+  .mobile-sidebar {
+    display: none;
+  }
+  .absolute-position {
+    display: none;
+  }
+  .header-wrapper__work {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 2em;
+  }
+  .header-wrapper__work:hover .absolute-position {
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: black;
+    display: block;
+  }
+  .header-wrapper__directors:hover .absolute-position {
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: black;
+    display: block;
+  }
+
+  .header-wrapper__work:hover .header-wrapper__work__li {
+    padding: 1em;
+  }
+  .header-wrapper__directors__li {
+    padding: 0.5em;
+  }
+  .header-wrapper__directors {
+    padding-bottom: 2em;
+    font-size: 1.1em;
+  }
+  .header-wrapper__li {
+    font-size: 1.1em;
+  }
 }

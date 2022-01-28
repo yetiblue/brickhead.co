@@ -93,6 +93,26 @@ class HeaderComponent extends React.Component<any, any> {
           {" "}
           ☰
         </button>
+        <ul className="header-wrapper__ul-desktop">
+          <ul className="header-wrapper__work">
+            Work
+            <div className="absolute-position">
+              {/* Work ▾ */}
+              <li className="header-wrapper__work__li">Branded Content</li>
+              <li className="header-wrapper__work__li">Music Videos</li>
+              <li className="header-wrapper__work__li">Narrative</li>
+              <li className="header-wrapper__work__li">Documentary</li>
+            </div>
+          </ul>
+
+          <ul className="header-wrapper__directors">
+            Collaborators
+            <div className="absolute-position">{collaboratorList}</div>
+          </ul>
+
+          <li className="header-wrapper__li">About</li>
+          <li className="header-wrapper__li"></li>
+        </ul>
       </div>
     );
   }
