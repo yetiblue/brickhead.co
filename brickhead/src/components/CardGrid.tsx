@@ -33,6 +33,7 @@ let testGridData = [
     director: "Adrian Sobrado",
   },
 ];
+
 let cardContent = testGridData.map((card) => (
   <li key={card.title} className="card-object">
     <CardComponent
