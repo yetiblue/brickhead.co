@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import HomePage from "./pages/HomePage";
+import Home from "./components/HomePage";
 import Collaborators from "./components/Collaborators";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Routes>
         {/* <CardGrid /> */}
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/home" element={<Home />}></Route>
         <Route path="/about" element={<Collaborators />}></Route>
       </Routes>
     </BrowserRouter>
