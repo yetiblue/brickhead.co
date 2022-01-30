@@ -11,12 +11,14 @@ li {
 }
 .card-wrapper {
   background-color: black;
+  padding-top: 2.2em;
 }
 
 @media screen and (min-width: 768px) {
   .card-wrapper {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1.8em;
   }
   .card-object {
     width: 50vw;

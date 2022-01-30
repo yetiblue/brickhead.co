@@ -1,5 +1,6 @@
 import "./CardGrid.css";
 import store from "../store/store";
+import Footer from "./FooterComponent";
 import { useParams } from "react-router-dom";
 
 import CardComponent from "./CardComponent";
@@ -40,6 +41,11 @@ function CardGrid() {
   }
   let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
 
-  return <div className="cardgrid-wrapper">{gridContent}</div>;
+  return (
+    <div className="cardgrid-wrapper">
+      {gridContent}
+      <Footer />
+    </div>
+  );
 }
 export default CardGrid;
