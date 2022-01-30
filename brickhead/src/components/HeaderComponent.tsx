@@ -1,5 +1,6 @@
 import "./HeaderComponent.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface MyState {
   value: string;
@@ -64,10 +65,12 @@ class HeaderComponent extends React.Component<any, any> {
     );
     return (
       <div className="header-wrapper">
-        <img
-          className="header-wrapper__logo"
-          src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Copy+of+1.png"
-        />
+        <Link to="/">
+          <img
+            className="header-wrapper__logo"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Copy+of+1.png"
+          />
+        </Link>
         <div className={sidebar}>
           <button onClick={this.openSidebar} className="close-sidebar-button">
             X
@@ -75,17 +78,41 @@ class HeaderComponent extends React.Component<any, any> {
           <ul className="header-wrapper__ul">
             <ul className="header-wrapper__work">
               Work ▾
-              <li className="header-wrapper__work__li">Branded Content</li>
-              <li className="header-wrapper__work__li">Music Videos</li>
-              <li className="header-wrapper__work__li">Narrative</li>
-              <li className="header-wrapper__work__li">Documentary</li>
+              <li className="header-wrapper__work__li">
+                <Link className="link" to="/branded">
+                  Branded Content
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                {" "}
+                <Link className="link" to="/musicvideos">
+                  Music Videos
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                {" "}
+                <Link className="link" to="/narrative">
+                  Narrative
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                {" "}
+                <Link className="link" to="/documentary">
+                  Documentary
+                </Link>
+              </li>
             </ul>
 
             <ul className="header-wrapper__directors">
               Collaborators ▾{collaboratorList}
             </ul>
 
-            <li className="header-wrapper__li">About</li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/about">
+                About
+              </Link>
+            </li>
             <li className="header-wrapper__li"></li>
           </ul>
         </div>
@@ -98,10 +125,28 @@ class HeaderComponent extends React.Component<any, any> {
             Work
             <div className="absolute-position">
               {/* Work ▾ */}
-              <li className="header-wrapper__work__li">Branded Content</li>
-              <li className="header-wrapper__work__li">Music Videos</li>
-              <li className="header-wrapper__work__li">Narrative</li>
-              <li className="header-wrapper__work__li">Documentary</li>
+              <li className="header-wrapper__work__li">
+                {" "}
+                <Link className="link" to="/branded">
+                  Branded Content
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                {" "}
+                <Link className="link" to="/musicvideos">
+                  Music Videos
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                <Link className="link" to="/narrative">
+                  Narrative
+                </Link>
+              </li>
+              <li className="header-wrapper__work__li">
+                <Link className="link" to="/documentary">
+                  Documentary
+                </Link>
+              </li>
             </div>
           </ul>
 
@@ -110,7 +155,11 @@ class HeaderComponent extends React.Component<any, any> {
             <div className="absolute-position">{collaboratorList}</div>
           </ul>
 
-          <li className="header-wrapper__li">About</li>
+          <li className="header-wrapper__li">
+            <Link className="about-link" to="/about">
+              About
+            </Link>
+          </li>
           <li className="header-wrapper__li"></li>
         </ul>
       </div>

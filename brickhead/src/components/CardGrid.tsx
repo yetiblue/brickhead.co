@@ -1,37 +1,45 @@
 import "./CardGrid.css";
 import store from "../store/store";
+import { useParams } from "react-router-dom";
 
 import CardComponent from "./CardComponent";
 
 let storeContent = store.getState();
 
-let cardContent = storeContent.map((card) => (
-  <li key={card.title} className="card-object">
-    <CardComponent
-      cardCategory={card.category}
-      cardTitle={card.title}
-      cardDirector={card.director}
-      cardSource={card.src}
-    />
-  </li>
-));
-let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
-
 function CardGrid() {
-  return (
-    <div className="cardgrid-wrapper">
-      {gridContent}
-      <div>
-        <iframe
-          className="card"
-          src="https://www.youtube.com/embed/dzQd-CsG-PE"
-          allow="fullscreen; picture-in-picture"
-          width="800"
-          height="420"
-        ></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-    </div>
-  );
+  let routeParam = useParams();
+  let cardContent;
+  console.log(routeParam.category, "params");
+  if (routeParam.category !== undefined) {
+    let filteredResults = storeContent.filter(
+      (video) => video.route == routeParam.category
+    );
+    console.log(filteredResults, "filtered resuts");
+    cardContent = filteredResults.map((card) => (
+      <li key={card.title} className="card-object">
+        <CardComponent
+          cardCategory={card.category}
+          cardTitle={card.title}
+          cardDirector={card.director}
+          cardSource={card.src}
+        />
+      </li>
+    ));
+  } else {
+    console.log("nothing");
+    cardContent = storeContent.map((card) => (
+      <li key={card.title} className="card-object">
+        <CardComponent
+          cardCategory={card.category}
+          cardTitle={card.title}
+          cardDirector={card.director}
+          cardSource={card.src}
+        />
+      </li>
+    ));
+  }
+  let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
+
+  return <div className="cardgrid-wrapper">{gridContent}</div>;
 }
 export default CardGrid;

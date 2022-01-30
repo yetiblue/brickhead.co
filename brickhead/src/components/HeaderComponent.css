@@ -21,6 +21,7 @@
   margin-top: 0.5em;
   padding-left: 1em;
   display: block;
+  text-decoration: none;
 }
 .header-wrapper__work__li {
   display: none;
@@ -81,6 +82,14 @@
 .header-wrapper__ul-desktop {
   display: none;
 }
+.link {
+  text-decoration: none;
+  color: white;
+}
+.about-link {
+  text-decoration: none;
+  color: black;
+}
 @media screen and (min-width: 768px) {
   .sidebar-button {
     font-size: 2.3em;
@@ -112,6 +121,7 @@
 @media screen and (min-width: 1360px) {
   .header-wrapper {
     justify-content: left;
+    max-height: 5vh;
   }
 
   .header-wrapper__logo {
@@ -139,7 +149,8 @@
   .header-wrapper__work {
     font-size: 1.1em;
     font-weight: bold;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
+    padding-top: 0.5em;
   }
   .header-wrapper__work:hover .absolute-position {
     position: relative;
@@ -147,6 +158,8 @@
     color: white;
     background-color: black;
     display: block;
+    position: relative;
+    z-index: 40;
   }
   .header-wrapper__directors:hover .absolute-position {
     position: relative;
@@ -154,19 +167,24 @@
     color: white;
     background-color: black;
     display: block;
+    margin-top: 1.4em;
   }
 
   .header-wrapper__work:hover .header-wrapper__work__li {
     padding: 1em;
+    margin-top: 1.4em;
   }
   .header-wrapper__directors__li {
     padding: 0.5em;
   }
   .header-wrapper__directors {
-    padding-bottom: 2em;
+    padding-bottom: 4em;
+
     font-size: 1.1em;
+    padding-top: 0.5em;
   }
   .header-wrapper__li {
     font-size: 1.1em;
+    padding-top: 0.5em;
   }
 }
