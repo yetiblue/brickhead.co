@@ -1,14 +1,16 @@
 .category-type {
   color: white;
-  font-size: 0.6em;
+  font-size: 0.8em;
   padding: 2em;
   padding-top: 0.2em;
   padding-bottom: 0.3em;
   border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.767);
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .category-type {
     font-size: 0.8em;
+    padding: 0.5em;
   }
 }

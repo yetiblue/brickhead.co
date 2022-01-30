@@ -1,53 +1,45 @@
-import "./CardGrid.css"
-import CardComponent from "./CardComponent"
+import "./CardGrid.css";
+import store from "../store/store";
+import { useParams } from "react-router-dom";
 
-interface Card{
-    category: string;
-    title: string;
-    company: string;
-    director: string;
-}
-let testGridData = [
-    {
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-     director: "Adrian Sobrado"
-},{
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-    director: "Adrian Sobrado"
-},{
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-     director: "Adrian Sobrado"
-},{
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-     director: "Adrian Sobrado"
-}
-]
- let cardContent = testGridData.map((card) => (
-        <li key={card.title} className="card-object">
-            <CardComponent
-            cardCategory={card.category}
-            cardTitle={card.title}
-            cardCompany={card.company}
-            cardDirector={card.director}
+import CardComponent from "./CardComponent";
 
-            />
-         
-        </li>
-        
-  ));
-  let gridContent = <ul className="card-wrapper">{cardContent}</ul>
+let storeContent = store.getState();
 
-function CardGrid(){
-    return(
-        <div className="cardgrid-wrapper">{gridContent}</div>
-    )
+function CardGrid() {
+  let routeParam = useParams();
+  let cardContent;
+  console.log(routeParam.category, "params");
+  if (routeParam.category !== undefined) {
+    let filteredResults = storeContent.filter(
+      (video) => video.route == routeParam.category
+    );
+    console.log(filteredResults, "filtered resuts");
+    cardContent = filteredResults.map((card) => (
+      <li key={card.title} className="card-object">
+        <CardComponent
+          cardCategory={card.category}
+          cardTitle={card.title}
+          cardDirector={card.director}
+          cardSource={card.src}
+        />
+      </li>
+    ));
+  } else {
+    console.log("nothing");
+    cardContent = storeContent.map((card) => (
+      <li key={card.title} className="card-object">
+        <CardComponent
+          cardCategory={card.category}
+          cardTitle={card.title}
+          cardDirector={card.director}
+          cardSource={card.src}
+        />
+      </li>
+    ));
+  }
+  let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
+
+  return <div className="cardgrid-wrapper">{gridContent}</div>;
 }
-export default CardGrid
+export default CardGrid;

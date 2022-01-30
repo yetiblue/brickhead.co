@@ -7,9 +7,13 @@ li {
 }
 .cardgrid-wrapper {
   max-width: 100%;
+  background-color: black;
+}
+.card-wrapper {
+  background-color: black;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .card-wrapper {
     display: flex;
     flex-wrap: wrap;

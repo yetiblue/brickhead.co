@@ -162,34 +162,64 @@ function Collaborators(props: any) {
       <div className="accolades">
         <ul className="accolades-wrapper">
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/DL-LOGO.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/DL-LOGO.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/ERLogo-WithSizing.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/ERLogo-WithSizing.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Logo-Rolling-Stone.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Logo-Rolling-Stone.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/MTV-Logo.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/MTV-Logo.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Ones_to_Watch_logo.jpg" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Ones_to_Watch_logo.jpg"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.jpg" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.jpg"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-1.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-1.png"
+            />
           </li>
           <li className="accolades-wrapper__li">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-2.png" />
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-2.png"
+            />
           </li>
         </ul>
       </div>
