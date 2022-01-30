@@ -1,46 +1,17 @@
 import "./CardGrid.css";
+import store from "../store/store";
+
 import CardComponent from "./CardComponent";
 
-interface testGridData {
-  category: string;
-  title: string;
-  company: string;
-  director: string;
-}
-let testGridData = [
-  {
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-    director: "Adrian Sobrado",
-  },
-  {
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-    director: "Adrian Sobrado",
-  },
-  {
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-    director: "Adrian Sobrado",
-  },
-  {
-    category: "Music Video",
-    title: "why Hello darkness",
-    company: "MTV",
-    director: "Adrian Sobrado",
-  },
-];
+let storeContent = store.getState();
 
-let cardContent = testGridData.map((card) => (
+let cardContent = storeContent.map((card) => (
   <li key={card.title} className="card-object">
     <CardComponent
       cardCategory={card.category}
       cardTitle={card.title}
-      cardCompany={card.company}
       cardDirector={card.director}
+      cardSource={card.src}
     />
   </li>
 ));

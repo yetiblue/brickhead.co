@@ -5,7 +5,7 @@
 .card {
   width: 100%;
   transition: transform 0.4s;
-  height: 40vh;
+  height: 30vh;
   /* padding: 0.2em; */
 }
 .card__thumbnail {
@@ -24,13 +24,19 @@ img {
 .card__category {
   position: absolute;
   top: 1em;
+  z-index: 20;
 }
 .card__information {
   position: absolute;
+  z-index: 20;
   top: 8em;
+  background-color: rgba(0, 0, 0, 0.671);
 }
 .card__text-wrapper {
   position: relative;
+  display: flex;
+  align-items: center;
+
   padding-left: 1em;
 }
 
@@ -38,14 +44,28 @@ img {
   .card__information {
     margin-top: 13%;
   }
+  .card {
+    height: 20vh;
+  }
 }
 @media screen and (min-width: 1024px) {
   .card__information {
     margin-top: 20%;
   }
+  .card {
+    height: 30vh;
+  }
 }
 @media screen and (min-width: 1360px) {
   .card__information {
     margin-top: 23%;
+  }
+  .card {
+    height: 35vh;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .card {
+    height: 45vh;
   }
 }

@@ -48,7 +48,7 @@
   width: 60vw;
   height: 100vh;
   position: absolute;
-  z-index: 3;
+  z-index: 21;
   padding-top: 2em;
   font-size: 1.2em;
 }
@@ -150,7 +150,7 @@
   }
   .header-wrapper__directors:hover .absolute-position {
     position: relative;
-    z-index: 10;
+    z-index: 25;
     color: white;
     background-color: black;
     display: block;

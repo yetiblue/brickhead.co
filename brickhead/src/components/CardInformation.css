@@ -1,10 +1,13 @@
 .information-wrapper {
   max-width: 100%;
+
   /* background-color: green; */
 }
 .information {
   text-align: left;
   max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+  padding: 0.2em;
 }
 .information__brand {
   font-size: 5vw;
@@ -30,7 +33,10 @@ p {
   margin: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+  .information-wrapper {
+    margin-top: -5em;
+  }
   .information__brand {
     font-size: 1.5vw;
   }
@@ -43,13 +49,14 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .information__brand {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   .information__title {
-    font-size: 1.5vw;
+    font-size: 2vw;
+    /* margin-top: -2em; */
   }
   .information__director {
-    font-size: 0.9vw;
+    font-size: 2vw;
   }
 }
 @media screen and (min-width: 1360px) {

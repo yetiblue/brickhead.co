@@ -21,7 +21,7 @@ function CardComponent(props: any) {
           {" "}
           <iframe
             className="card"
-            src="https://player.vimeo.com/video/664925900?h=ec1736e4af&title=0&byline=0&portrait=0"
+            src={props.cardSource}
             allow="fullscreen; picture-in-picture"
             // width="800"
             // height="420"
