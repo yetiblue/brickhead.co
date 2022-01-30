@@ -1,5 +1,6 @@
 import "./Collaborators.css";
 function Collaborators(props: any) {
+  document.body.style.overflow = "visible";
   return (
     <div className="about-wrapper">
       <div className="about__description">

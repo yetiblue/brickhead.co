@@ -1,11 +1,14 @@
 .header-wrapper {
   max-width: 100vw;
-  max-height: 10vh;
+  max-height: 6vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 0.5em;
   background-color: rgb(240, 248, 248);
+  position: fixed;
+  z-index: 60;
+  width: 100vw;
 }
 .header-wrapper__ul {
   display: flex;
@@ -40,6 +43,7 @@
 .header-wrapper__logo {
   max-width: 15vw;
   max-height: 7vh;
+  padding-left: 0.5em;
 }
 .mobile-sidebar {
   background-color: black;
@@ -75,9 +79,10 @@
   color: white;
 }
 .sidebar-button {
-  font-size: 1.5em;
+  padding-right: 1em;
+  font-size: 2em;
   border: none;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
 }
 .header-wrapper__ul-desktop {
   display: none;

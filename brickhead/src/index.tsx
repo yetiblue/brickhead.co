@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import HomePage from "./pages/HomePage";
-import Home from "./components/HomePage";
 import CardGrid from "./components/CardGrid";
 import AboutPage from "./pages/AboutPage";
 import reportWebVitals from "./reportWebVitals";
@@ -16,7 +15,6 @@ ReactDOM.render(
         <Route path="/" element={<HomePage />}>
           <Route path=":category" element={<CardGrid />}></Route>
         </Route>
-        <Route path="/home" element={<Home />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
       </Routes>
     </BrowserRouter>
