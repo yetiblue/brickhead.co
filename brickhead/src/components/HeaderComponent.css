@@ -50,7 +50,7 @@
 }
 .header-wrapper__logo {
   max-width: 15vw;
-  max-height: 7vh;
+  max-height: 5vh;
   padding-left: 0.5em;
 }
 .mobile-sidebar {
@@ -122,7 +122,7 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
-    max-height: 6vh;
+    max-height: 4vh;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -145,7 +145,7 @@
 
   .header-wrapper__logo {
     max-width: 6vw;
-    max-height: 8vh;
+    max-height: 5vh;
   }
   .sidebar-button {
     display: none;
