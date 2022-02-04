@@ -21,18 +21,19 @@ function Collaborators(props: any) {
             <p>Adrian Sobrado</p>
           </li>
           <li className="about__executives__li">
-            <p>In-House Producer:</p>
+            <p>In-House Producers:</p>
             <p>Harrison Allen</p>
             <p>Nora Zubizarreta</p>
-          </li>
-          <li className="about__executives__li">
-            <p>Business Operations:</p>
-            <p>Dion White</p>
           </li>
           <li className="about__executives__li">
             <p>VFX:</p>
             <p>Joachim Pfefferkorn</p>
           </li>
+          <li className="about__executives__li">
+            <p>Business Operations:</p>
+            <p>Dion White</p>
+          </li>
+
           <h3 className="about__executives__h3">Contact</h3>
           <li>
             <p>bre@brickhead.co </p>
