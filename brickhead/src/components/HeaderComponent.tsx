@@ -151,8 +151,13 @@ class HeaderComponent extends React.Component<any, any> {
           </ul>
 
           <ul className="header-wrapper__directors">
-            Collaborators
-            <div className="absolute-position">{collaboratorList}</div>
+            <Link
+              className="header-wrapper__directors__link"
+              to="/collaborators"
+            >
+              Collaborators
+            </Link>
+            {/* <div className="absolute-position">{collaboratorList}</div> */}
           </ul>
 
           <li className="header-wrapper__li">

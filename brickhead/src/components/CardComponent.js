@@ -18,6 +18,7 @@ function CardComponent(props) {
   } else {
     document.body.style.overflow = "visible";
   }
+  console.log(props.cardThumbnail, "card thumbnail");
   return (
     <div className="card-wrapper">
       {renderModal}
@@ -35,16 +36,14 @@ function CardComponent(props) {
           </div>
         </div>
         <div className="card__thumbnail">
-          {" "}
-          <iframe
+          <img
             onClick={() => {
               setModalOpen(!modalOpen);
             }}
             className="card"
-            src={props.cardSource}
-            title=" "
-            allow="fullscreen; picture-in-picture"
-          ></iframe>
+            src={props.cardThumbnail}
+            alt="sdfsf"
+          />
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
       </div>

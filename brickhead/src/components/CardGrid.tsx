@@ -13,7 +13,7 @@ function CardGrid() {
   console.log(routeParam.category, "params");
   if (routeParam.category !== undefined) {
     let filteredResults = storeContent.filter(
-      (video) => video.route == routeParam.category
+      (video) => video.route === routeParam.category
     );
     console.log(filteredResults, "filtered resuts");
     cardContent = filteredResults.map((card) => (
@@ -23,6 +23,7 @@ function CardGrid() {
           cardTitle={card.title}
           cardDirector={card.director}
           cardSource={card.src}
+          cardThumbnail={card.thumbnail}
         />
       </li>
     ));
@@ -35,6 +36,7 @@ function CardGrid() {
           cardTitle={card.title}
           cardDirector={card.director}
           cardSource={card.src}
+          cardThumbnail={card.thumbnail}
         />
       </li>
     ));
@@ -44,7 +46,7 @@ function CardGrid() {
   return (
     <div className="cardgrid-wrapper">
       {gridContent}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
