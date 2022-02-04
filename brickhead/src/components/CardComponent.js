@@ -1,9 +1,27 @@
 import "./CardComponent.css";
 import CardCategory from "./CardCategory";
+import VideoModal from "./VideoModal";
+import { useState } from "react";
 import CardInformation from "./CardInformation";
-function CardComponent(props: any) {
+function CardComponent(props) {
+  let renderModal;
+  const [modalOpen, setModalOpen] = useState(false);
+  console.log(modalOpen, "modalopen");
+  if (modalOpen) {
+    document.body.style.overflow = "hidden";
+    renderModal = (
+      <VideoModal
+        closeModal={[modalOpen, setModalOpen]}
+        videoSource={props.cardSource}
+      />
+    );
+  } else {
+    document.body.style.overflow = "visible";
+  }
+  console.log(props.cardThumbnail, "card thumbnail");
   return (
     <div className="card-wrapper">
+      {renderModal}
       <div className="card">
         <div className="card__text-wrapper">
           <div className="card__category">
@@ -18,14 +36,14 @@ function CardComponent(props: any) {
           </div>
         </div>
         <div className="card__thumbnail">
-          {" "}
-          <iframe
+          <img
+            onClick={() => {
+              setModalOpen(!modalOpen);
+            }}
             className="card"
-            src={props.cardSource}
-            allow="fullscreen; picture-in-picture"
-            // width="800"
-            // height="420"
-          ></iframe>
+            src={props.cardThumbnail}
+            alt="sdfsf"
+          />
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
       </div>

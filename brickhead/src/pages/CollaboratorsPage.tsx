@@ -1,12 +1,11 @@
 import HeaderComponent from "../components/HeaderComponent";
-import CardGrid from "../components/CardGrid";
+import CollaboratorList from "../components/CollaboratorList";
 
 function HomePage() {
   return (
     <div>
       <HeaderComponent />
-
-      <CardGrid />
+      <CollaboratorList />
     </div>
   );
 }

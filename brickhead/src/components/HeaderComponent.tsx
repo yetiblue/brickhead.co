@@ -68,7 +68,7 @@ class HeaderComponent extends React.Component<any, any> {
         <Link to="/">
           <img
             className="header-wrapper__logo"
-            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Copy+of+1.png"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/IMG_0427.jpg"
           />
         </Link>
         <div className={sidebar}>
@@ -104,9 +104,22 @@ class HeaderComponent extends React.Component<any, any> {
             </ul>
 
             <ul className="header-wrapper__directors">
-              Collaborators ▾{collaboratorList}
+              {" "}
+              <Link className="link" to="/collaborators">
+                Collaborators
+              </Link>
             </ul>
 
+            <li className="header-wrapper__li">
+              {" "}
+              <a
+                href="https://www.lightrange.productions/"
+                className="link"
+                target="_blank"
+              >
+                VFX
+              </a>
+            </li>
             <li className="header-wrapper__li">
               {" "}
               <Link className="link" to="/about">
@@ -151,10 +164,24 @@ class HeaderComponent extends React.Component<any, any> {
           </ul>
 
           <ul className="header-wrapper__directors">
-            Collaborators
-            <div className="absolute-position">{collaboratorList}</div>
+            <Link
+              className="header-wrapper__directors__link"
+              to="/collaborators"
+            >
+              Collaborators
+            </Link>
+            {/* <div className="absolute-position">{collaboratorList}</div> */}
           </ul>
-
+          <li className="header-wrapper__li">
+            {" "}
+            <a
+              href="https://www.lightrange.productions/"
+              className="about-link"
+              target="_blank"
+            >
+              VFX
+            </a>
+          </li>
           <li className="header-wrapper__li">
             <Link className="about-link" to="/about">
               About

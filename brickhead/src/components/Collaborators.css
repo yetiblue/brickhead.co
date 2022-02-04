@@ -1,5 +1,6 @@
 .about-wrapper {
   background-color: black;
+  padding-top: 5em;
 }
 .about__collaborators {
   max-width: 90vw;
@@ -60,7 +61,7 @@ h4 {
   flex-grow: 0;
 }
 hr {
-  /* margin-top: 6em; */
+  margin-top: 6em;
   width: 40vw;
 }
 .accolades {
@@ -105,5 +106,13 @@ hr {
   }
   .about__collaborators {
     max-width: 40vw;
+  }
+  .about__executives {
+    margin-top: 4em;
+    font-size: 0.9em;
+  }
+  .about__executives__h3 {
+    color: rgb(240, 236, 20);
+    font-size: 1em;
   }
 }

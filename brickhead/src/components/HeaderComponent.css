@@ -9,6 +9,7 @@
   position: fixed;
   z-index: 60;
   width: 100vw;
+  background-color: rgb(240, 236, 20);
 }
 .header-wrapper__ul {
   display: flex;
@@ -32,6 +33,13 @@
 .header-wrapper__directors {
   padding: 1em;
 }
+.header-wrapper__directors__link {
+  text-decoration: none;
+  color: black;
+}
+.header-wrapper__directors__link:hover {
+  color: blueviolet;
+}
 .header-wrapper__directors:hover .header-wrapper__directors__li {
   margin-top: 0.5em;
   padding-left: 1em;
@@ -42,7 +50,7 @@
 }
 .header-wrapper__logo {
   max-width: 15vw;
-  max-height: 7vh;
+  max-height: 5vh;
   padding-left: 0.5em;
 }
 .mobile-sidebar {
@@ -91,9 +99,15 @@
   text-decoration: none;
   color: white;
 }
+.link:hover {
+  color: blueviolet;
+}
 .about-link {
   text-decoration: none;
   color: black;
+}
+.about-link:hover {
+  color: blueviolet;
 }
 @media screen and (min-width: 768px) {
   .sidebar-button {
@@ -108,7 +122,7 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
-    max-height: 6vh;
+    max-height: 4vh;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -131,7 +145,7 @@
 
   .header-wrapper__logo {
     max-width: 6vw;
-    max-height: 8vh;
+    max-height: 5vh;
   }
   .sidebar-button {
     display: none;

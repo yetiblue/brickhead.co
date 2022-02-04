@@ -4,6 +4,7 @@ import "./index.css";
 import HomePage from "./pages/HomePage";
 import CardGrid from "./components/CardGrid";
 import AboutPage from "./pages/AboutPage";
+import CollaboratorsPage from "./pages/CollaboratorsPage";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ ReactDOM.render(
           <Route path=":category" element={<CardGrid />}></Route>
         </Route>
         <Route path="/about" element={<AboutPage />}></Route>
+        <Route path="/collaborators" element={<CollaboratorsPage />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
