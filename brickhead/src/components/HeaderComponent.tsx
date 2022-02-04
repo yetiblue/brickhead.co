@@ -104,9 +104,22 @@ class HeaderComponent extends React.Component<any, any> {
             </ul>
 
             <ul className="header-wrapper__directors">
-              Collaborators ▾{collaboratorList}
+              {" "}
+              <Link className="link" to="/collaborators">
+                Collaborators
+              </Link>
             </ul>
 
+            <li className="header-wrapper__li">
+              {" "}
+              <a
+                href="https://www.lightrange.productions/"
+                className="link"
+                target="_blank"
+              >
+                VFX
+              </a>
+            </li>
             <li className="header-wrapper__li">
               {" "}
               <Link className="link" to="/about">
@@ -159,7 +172,16 @@ class HeaderComponent extends React.Component<any, any> {
             </Link>
             {/* <div className="absolute-position">{collaboratorList}</div> */}
           </ul>
-
+          <li className="header-wrapper__li">
+            {" "}
+            <a
+              href="https://www.lightrange.productions/"
+              className="about-link"
+              target="_blank"
+            >
+              VFX
+            </a>
+          </li>
           <li className="header-wrapper__li">
             <Link className="about-link" to="/about">
               About

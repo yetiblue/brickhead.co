@@ -1,5 +1,6 @@
 .about-wrapper {
   background-color: black;
+  padding-top: 5em;
 }
 .about__collaborators {
   max-width: 90vw;
