@@ -12,7 +12,7 @@ function Collaborators(props: any) {
               className="list__link"
               target="_blank"
             >
-              "<h4>Ewurakua Dawson-Amoah </h4>
+              <h4>Ewurakua Dawson-Amoah </h4>
             </a>
 
             <p>
@@ -34,7 +34,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Gabriel Crawford Connelly </h4>
+              <h4>Gabriel Crawford Connelly </h4>
             </a>
             <p>
               Gabriel Crawford Connelly is a cinematographer and director based
@@ -49,7 +49,7 @@ function Collaborators(props: any) {
               target="_blank"
               className="list__link"
             >
-              "<h4>Andrew Stern </h4>
+              <h4>Andrew Stern </h4>
             </a>
             <p>
               Andrew Stern is a director and producer of music videos and
@@ -66,7 +66,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Zach Dov Wiesel</h4>
+              <h4>Zach Dov Wiesel</h4>
             </a>
             <p>
               Zac Dov Wiesel is an Australian born director currently based in
@@ -83,7 +83,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Tashi B. </h4>
+              <h4>Tashi B. </h4>
             </a>
             <p>
               Born in East India and raised in Queens, New York, Tashi is a
@@ -101,7 +101,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Ragan Henderson </h4>
+              <h4>Ragan Henderson </h4>
             </a>
             <p>
               Ragan Henderson is a New York-based creative, specializing in
@@ -121,7 +121,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Georgia Krause</h4>
+              <h4>Georgia Krause</h4>
             </a>
             <p>
               Georgia is a documentary filmmaker currently based in San Diego.
@@ -134,7 +134,7 @@ function Collaborators(props: any) {
             </p>
           </li>
           <li>
-            "<h4>Talia Smith</h4>
+            <h4>Talia Smith</h4>
             <p>
               A filmmaker born and raised in South Africa. Her country’s rich
               heritage inspired her storytelling aspirations from a young age.
@@ -151,7 +151,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Matthew O’Connor</h4>
+              <h4>Matthew O’Connor</h4>
             </a>
             <p>
               Matthew is a director, writer and editor with a surreal visual
@@ -174,7 +174,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Nick Freeman</h4>
+              <h4>Nick Freeman</h4>
             </a>
             <p>
               Nick is a filmmaker who has directed music videos for various
@@ -190,7 +190,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Jack Doc Simon</h4>
+              <h4>Jack Doc Simon</h4>
             </a>
             <p>
               After spending a year working at BBDO Advertising’s production
@@ -209,7 +209,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Alex Fischman</h4>
+              <h4>Alex Fischman</h4>
             </a>
             <p>
               Alex Fischman Cárdenas’s career began at 17, he directed the
@@ -227,7 +227,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Caleb Wild</h4>
+              <h4>Caleb Wild</h4>
             </a>
             <p>
               Caleb interned at A24 and worked as a script researcher on the
@@ -244,7 +244,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Zen Pace</h4>
+              <h4>Zen Pace</h4>
             </a>
             <p>
               Zen Zadih Pace is a multi-hyphenate nonbinary creator, born and
@@ -266,7 +266,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              "<h4>Mike Klubeck</h4>
+              <h4>Mike Klubeck</h4>
             </a>
             <p>
               Mike Klubeck is a video director based out of New York City. His

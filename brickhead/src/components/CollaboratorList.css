@@ -3,6 +3,7 @@
 }
 .list__link {
   text-decoration: none;
+  list-style-type: none;
 }
 h4:hover {
   color: blueviolet;
