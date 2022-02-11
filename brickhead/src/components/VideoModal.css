@@ -5,26 +5,40 @@
   background-color: black;
   width: 100%;
   height: 100%;
-
   z-index: 100;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
-.modal-video {
-  height: 70vh;
-  display: flex;
+
+.modal-title {
+  color: white;
+  max-width: 80vw;
+  text-align: center;
+  margin-top: 2em;
+}
+.modal-credits {
+  color: white;
+  position: relative;
+  left: -6em;
+}
+.modal-stills {
+  color: white;
+  position: relative;
+  left: -6em;
 }
 iframe {
-  width: 80vw;
+  height: 30vh;
+  width: auto;
+
   border: none;
 }
 .modal-wrapper-back {
   background-color: black;
   border: none;
   color: white;
-  position: absolute;
+  position: relative;
   font-size: 2em;
   top: 0.5em;
-  left: 1em;
+  left: 0;
 }

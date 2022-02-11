@@ -4,6 +4,7 @@ function Collaborators(props: any) {
   return (
     <div className="about-wrapper">
       <div className="about__description">
+        <h2 className="about-about">ABOUT</h2>
         <p className="about__description__p">
           BrickHead is a NYC-based production company that specializes in
           short-form content. From documentaries to music videos to short films,
@@ -11,9 +12,9 @@ function Collaborators(props: any) {
           cinematographers, editors, and VFX artists to offer a full-service,
           one-stop shop for brands and artists.
         </p>
-
+        <hr></hr>
         <ul className="about__executives">
-          <h3 className="about__executives__h3">Team</h3>
+          <h3 className="about__executives__h3">TEAM</h3>
 
           <li className="about__executives__li">
             <p>Executive Producers:</p>
@@ -32,11 +33,6 @@ function Collaborators(props: any) {
           <li className="about__executives__li">
             <p>Business Operations:</p>
             <p>Dion White</p>
-          </li>
-
-          <h3 className="about__executives__h3">Contact</h3>
-          <li>
-            <p>bre@brickhead.co </p>
           </li>
         </ul>
       </div>

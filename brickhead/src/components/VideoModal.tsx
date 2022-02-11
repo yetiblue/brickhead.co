@@ -12,21 +12,32 @@ class VideoModal extends React.Component<any, any> {
   render() {
     return (
       <div className="modal-wrapper">
-        <button
-          type="button"
-          className="modal-wrapper-back"
-          onClick={this.closeModal}
-        >
-          ←
-        </button>
-        <div className="modal-video">
-          <iframe
-            //   className="card"
+        <div>
+          <div className="modal-top">
+            <button
+              type="button"
+              className="modal-wrapper-back"
+              onClick={this.closeModal}
+            >
+              ←
+            </button>
+            <h2 className="modal-title">{this.props.videoTitle}</h2>
+          </div>
+          <div className="modal-video">
+            <iframe
+              //   className="card"
 
-            src={this.props.videoSource}
-            title=" "
-            allow="fullscreen; picture-in-picture"
-          ></iframe>
+              src={this.props.videoSource}
+              title=" "
+              allow="fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
+        </div>
+        <div className="modal-stills">
+          <h2>STILLS</h2>
+        </div>
+        <div className="modal-credits">
+          <h2>CREDITS</h2>
         </div>
       </div>
     );

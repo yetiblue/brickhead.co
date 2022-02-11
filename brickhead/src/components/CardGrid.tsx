@@ -1,6 +1,5 @@
 import "./CardGrid.css";
 import store from "../store/store";
-import Footer from "./FooterComponent";
 import { useParams } from "react-router-dom";
 
 import CardComponent from "./CardComponent";

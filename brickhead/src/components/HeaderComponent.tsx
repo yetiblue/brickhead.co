@@ -65,50 +65,40 @@ class HeaderComponent extends React.Component<any, any> {
     );
     return (
       <div className="header-wrapper">
+        <button onClick={this.openSidebar} className="sidebar-button">
+          {" "}
+          ☰
+        </button>
         <Link to="/">
           <img
             className="header-wrapper__logo"
-            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/IMG_0427.jpg"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
           />
         </Link>
+        <img
+          className="header-wrapper__IG"
+          src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+        />
+
         <div className={sidebar}>
           <button onClick={this.openSidebar} className="close-sidebar-button">
             X
           </button>
           <ul className="header-wrapper__ul">
-            <ul className="header-wrapper__work">
-              Work ▾
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/branded">
-                  Branded Content
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/musicvideos">
-                  Music Videos
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/narrative">
-                  Narrative
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/documentary">
-                  Documentary
-                </Link>
-              </li>
-            </ul>
+            <li className="header-wrapper__li">WORK</li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/about">
+                ABOUT
+              </Link>
+            </li>
 
-            <ul className="header-wrapper__directors">
+            <li className="header-wrapper__li">
               {" "}
               <Link className="link" to="/collaborators">
-                Collaborators
+                COLLABORATORS
               </Link>
-            </ul>
+            </li>
 
             <li className="header-wrapper__li">
               {" "}
@@ -120,19 +110,11 @@ class HeaderComponent extends React.Component<any, any> {
                 VFX
               </a>
             </li>
-            <li className="header-wrapper__li">
-              {" "}
-              <Link className="link" to="/about">
-                About
-              </Link>
-            </li>
+
             <li className="header-wrapper__li"></li>
           </ul>
         </div>
-        <button onClick={this.openSidebar} className="sidebar-button">
-          {" "}
-          ☰
-        </button>
+
         <ul className="header-wrapper__ul-desktop">
           <ul className="header-wrapper__work">
             Work

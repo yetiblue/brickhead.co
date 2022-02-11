@@ -1,12 +1,12 @@
 .information-wrapper {
-  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
   /* background-color: green; */
 }
 .information {
-  text-align: left;
   max-width: 100%;
-  background-color: rgba(0, 0, 0, 0.671);
   padding: 0.2em;
 }
 .information__brand {
@@ -17,12 +17,13 @@
 .information__title {
   font-size: 5vw;
   color: white;
+  text-align: center;
 }
 .information__director {
   font-size: 3vw;
   color: white;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 h1 {
   padding: 0;

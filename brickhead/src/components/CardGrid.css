@@ -7,10 +7,14 @@ li {
 }
 .cardgrid-wrapper {
   max-width: 100%;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.card-object {
+  max-width: 80vw;
+  margin-bottom: 2em;
 }
 .card-wrapper {
-  background-color: black;
   padding-top: 2.2em;
 }
 
@@ -21,6 +25,6 @@ li {
     padding-top: 1.8em;
   }
   .card-object {
-    width: 50vw;
+    width: 49 vw;
   }
 }

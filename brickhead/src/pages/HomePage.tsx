@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div>
       <HeaderComponent />
-      <MainVideo />
+      {/* <MainVideo /> */}
       <CardGrid />
     </div>
   );

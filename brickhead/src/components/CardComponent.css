@@ -5,7 +5,8 @@
 .card {
   width: 100%;
   transition: transform 0.4s;
-  height: 30vh;
+  height: 20vh;
+
   /* padding: 0.2em; */
 }
 .card__thumbnail {
@@ -20,6 +21,11 @@
 }
 img {
   width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.08) 14.58%,
+    #000000 88.54%
+  );
 }
 .card__category {
   position: absolute;
@@ -29,15 +35,14 @@ img {
 .card__information {
   position: absolute;
   z-index: 20;
-  top: 8em;
-  background-color: rgba(0, 0, 0, 0.671);
+  margin-top: 70%;
 }
 .card__text-wrapper {
   position: relative;
   display: flex;
   align-items: center;
-
-  padding-left: 1em;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
