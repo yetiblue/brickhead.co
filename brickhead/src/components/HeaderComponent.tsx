@@ -87,7 +87,12 @@ class HeaderComponent extends React.Component<any, any> {
             X
           </button>
           <ul className="header-wrapper__ul">
-            <li className="header-wrapper__li">WORK</li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/work">
+                WORK
+              </Link>
+            </li>
             <li className="header-wrapper__li">
               {" "}
               <Link className="link" to="/about">

@@ -1,0 +1,8 @@
+.page-title {
+  color: white;
+  font-family: "disket_monobold";
+  padding: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1em;
+}

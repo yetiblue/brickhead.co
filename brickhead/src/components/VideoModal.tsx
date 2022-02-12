@@ -34,10 +34,10 @@ class VideoModal extends React.Component<any, any> {
           </div>
         </div>
         <div className="modal-stills">
-          <h2>STILLS</h2>
+          <h3>STILLS</h3>
         </div>
         <div className="modal-credits">
-          <h2>CREDITS</h2>
+          <h3>CREDITS</h3>
         </div>
       </div>
     );

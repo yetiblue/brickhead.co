@@ -7,38 +7,52 @@
   height: 100%;
   z-index: 100;
   display: flex;
+  padding-top: 1.5em;
   flex-direction: column;
   align-items: center;
 }
 
 .modal-title {
   color: white;
-  max-width: 80vw;
+  max-width: 60vw;
   text-align: center;
   margin-top: 2em;
+  position: relative;
+  right: 0.5em;
+  font-family: "disket_monobold";
 }
 .modal-credits {
   color: white;
   position: relative;
-  left: -6em;
+  left: -8.5em;
+  font-family: "disket_monobold";
+  text-align: left;
 }
 .modal-stills {
   color: white;
   position: relative;
-  left: -6em;
+  left: -9em;
+  font-family: "disket_monobold";
+  text-align: left;
 }
 iframe {
   height: 30vh;
   width: auto;
+  margin-bottom: 1em;
 
   border: none;
 }
+.modal-top {
+  display: flex;
+  justify-content: center;
+}
 .modal-wrapper-back {
+  font-family: "b612_monoregular";
   background-color: black;
   border: none;
   color: white;
-  position: relative;
+  position: absolute;
   font-size: 2em;
-  top: 0.5em;
-  left: 0;
+  top: 2.1em;
+  left: 0.5em;
 }
