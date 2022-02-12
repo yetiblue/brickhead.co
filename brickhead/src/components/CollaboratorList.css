@@ -8,12 +8,12 @@
   text-decoration-color: white;
   text-align: left;
   text-transform: uppercase;
+  padding-right: 1em;
   /* font-size: 1.5em; */
 }
-h4:hover {
-  color: blueviolet;
-}
+
 .about__image__name {
+  font-family: "disket_monoregular";
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   grid-gap: 2em;
@@ -22,9 +22,16 @@ h4:hover {
   width: 100vw;
 }
 .collaborators-title {
+  font-family: "disket_monobold";
+
   margin-bottom: 2.5em;
   color: white;
   padding-left: 1em;
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 1360px) {
+  .list__link h4:hover {
+    color: blueviolet;
+  }
 }

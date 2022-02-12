@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import CardGrid from "./components/CardGrid"
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import CardGrid from "./components/CardGrid";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-               <CardGrid />
+        <CardGrid />
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,7 +21,6 @@ function App() {
         >
           Learn React
         </a>
-       
       </header>
     </div>
   );

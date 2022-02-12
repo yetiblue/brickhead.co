@@ -293,7 +293,7 @@ function Collaborators(props: any) {
               className="list__link"
               target="_blank"
             >
-              <h4>Ewurakua Dawson-Amoah </h4>
+              <h4 className="list__link">Ewurakua Dawson-Amoah </h4>
             </a>
           </li>
           <li className="about__image__name">

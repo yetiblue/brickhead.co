@@ -14,25 +14,25 @@ function Collaborators(props: any) {
         </p>
         <hr></hr>
         <ul className="about__executives">
-          <h3 className="about__executives__h3">TEAM</h3>
+          <h2 className="about__executives__h2">TEAM</h2>
 
           <li className="about__executives__li">
-            <p>Executive Producers:</p>
-            <p>Bre Kelly</p>
-            <p>Adrian Sobrado</p>
+            <p className="about__executives__li__p">Executive Producers:</p>
+            <p className="about__executives__li__name">Bre Kelly</p>
+            <p className="about__executives__li__name">Adrian Sobrado</p>
           </li>
           <li className="about__executives__li">
-            <p>In-House Producers:</p>
-            <p>Harrison Allen</p>
-            <p>Nora Zubizarreta</p>
+            <p className="about__executives__li__p">In-House Producers:</p>
+            <p className="about__executives__li__name">Harrison Allen</p>
+            <p className="about__executives__li__name">Nora Zubizarreta</p>
           </li>
           <li className="about__executives__li">
-            <p>VFX:</p>
-            <p>Joachim Pfefferkorn</p>
+            <p className="about__executives__li__p">VFX:</p>
+            <p className="about__executives__li__name">Joachim Pfefferkorn</p>
           </li>
           <li className="about__executives__li">
-            <p>Business Operations:</p>
-            <p>Dion White</p>
+            <p className="about__executives__li__p">Business Operations:</p>
+            <p className="about__executives__li__name">Dion White</p>
           </li>
         </ul>
       </div>

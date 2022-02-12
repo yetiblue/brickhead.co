@@ -6,6 +6,8 @@ import CardGrid from "./components/CardGrid";
 import AboutPage from "./pages/AboutPage";
 import CollaboratorsPage from "./pages/CollaboratorsPage";
 import reportWebVitals from "./reportWebVitals";
+import "./disketfont/stylesheet.css";
+import "./b612font/stylesheet.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(

@@ -75,10 +75,12 @@ class HeaderComponent extends React.Component<any, any> {
             src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
           />
         </Link>
-        <img
-          className="header-wrapper__IG"
-          src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
-        />
+        <a href="https://www.instagram.com/brickhead.co/" target="_blank">
+          <img
+            className="header-wrapper__IG"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+          />
+        </a>
 
         <div className={sidebar}>
           <button onClick={this.openSidebar} className="close-sidebar-button">
