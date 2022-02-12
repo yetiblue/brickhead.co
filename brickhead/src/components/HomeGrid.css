@@ -1,0 +1,52 @@
+.homepage-layout {
+  font-family: "disket_monobold";
+}
+.homepage-layout li {
+  margin-top: -3.5em;
+}
+.homepage-item-v1 p {
+  position: relative;
+  top: 6em;
+  left: 2em;
+  max-width: 50vw;
+  z-index: 2;
+  text-align: left;
+}
+.homepage-item-v1 img {
+  max-width: 70vw;
+  position: relative;
+  left: 6em;
+  top: -3.5em;
+}
+.homepage-item-v2 p {
+  position: relative;
+  top: 6em;
+  left: 12em;
+  max-width: 50vw;
+  z-index: 2;
+  text-align: left;
+}
+.homepage-item-v2 img {
+  max-width: 70vw;
+  max-height: 20vh;
+  position: relative;
+  right: -2em;
+  top: -4em;
+}
+.homepage-item-v1 h6 {
+  font-size: 0.8em;
+  z-index: 3;
+  position: relative;
+  top: 6em;
+  left: 2.6em;
+  color: white;
+}
+.homepage-item-v2 h6 {
+  font-size: 0.8em;
+  z-index: 3;
+  position: relative;
+  top: 6em;
+  left: 15em;
+  color: white;
+  text-align: left;
+}
