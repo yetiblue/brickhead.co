@@ -50,3 +50,35 @@
   color: white;
   text-align: left;
 }
+@media screen and (min-width: 1368px) {
+  .homepage-item-v1 {
+    margin-left: 40%;
+    margin-bottom: 2em;
+  }
+  .homepage-item-v1 p {
+    font-size: 2em;
+    max-width: 30vw;
+    margin-left: -4em;
+    position: relative;
+  }
+  .homepage-items-v1 h6 {
+    font-size: 1em;
+    max-width: 30vw;
+    top: 10em;
+  }
+  .homepage-item-v2 {
+    margin-left: 10%;
+    margin-bottom: 2em;
+  }
+  .homepage-item-v2 p {
+    font-size: 2em;
+    max-width: 30vw;
+  }
+  .homepage-item-v2 img {
+    max-height: 50vh;
+    max-width: 50vw;
+  }
+  .homepage-item-v1 img {
+    max-width: 50vw;
+  }
+}

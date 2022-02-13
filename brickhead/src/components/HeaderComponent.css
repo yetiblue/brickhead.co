@@ -59,6 +59,7 @@
 .header-wrapper__IG {
   width: auto;
   height: 4vh;
+  background: none;
 }
 .mobile-sidebar {
   left: 0;
@@ -132,6 +133,7 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
+    background: none;
     /* max-height: 4vh; */
   }
 }
