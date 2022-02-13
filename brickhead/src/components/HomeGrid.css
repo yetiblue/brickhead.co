@@ -111,7 +111,7 @@
     font-size: 1em;
     max-width: 30vw;
     top: 20em;
-    left: -15%;
+    left: -16%;
   }
   .homepage-item-v2 {
     margin-left: 10%;
@@ -126,10 +126,9 @@
     text-align: right;
   }
   .homepage-item-v2 h6 {
-    left: 68%;
     top: 20em;
     font-size: 1em;
-    /* text-align: right; */
+    text-align: right;
   }
   .homepage-item-v2 img {
     max-height: 50vh;
