@@ -16,7 +16,7 @@ function Collaborators(props: any) {
                 <h4>Ewurakua Dawson-Amoah </h4>
               </a>
 
-              <p>
+              <p className="collab-description">
                 Her work has been recognized in numerous film competitions,
                 including Fusion Film Festival, Raindance Festival, Cinequest,
                 Toronto Black Film Festival, NFFTY, and others, In August of
@@ -294,7 +294,7 @@ function Collaborators(props: any) {
               target="_blank"
             >
               <h4 className="list__link">Ewurakua Dawson-Amoah </h4>
-              <p>
+              <p className="collab-description">
                 Her work has been recognized in numerous film competitions,
                 including Fusion Film Festival, Raindance Festival, Cinequest,
                 Toronto Black Film Festival, NFFTY, and others, In August of

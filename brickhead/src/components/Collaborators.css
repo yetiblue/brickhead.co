@@ -95,9 +95,21 @@ hr {
     /* padding: 3em; */
     padding-top: 0;
     padding-bottom: 0;
+    width: 60%;
+    text-align: center;
   }
   .accolades__wrapper__img {
     max-width: 8vw;
+  }
+  .about__executives {
+    flex-direction: row;
+  }
+  .executives-justify {
+    padding-top: 1em;
+  }
+  .description-justify {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -126,6 +138,7 @@ hr {
   .executives-justify {
     display: flex;
     justify-content: center;
+    padding-top: 0em;
   }
   .about__executives {
     max-width: 80vw;

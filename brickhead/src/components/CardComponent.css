@@ -46,10 +46,12 @@ img {
 @media screen and (min-width: 768px) {
   .card__information {
     margin-top: 13%;
+    width: 100%;
   }
   .card {
-    height: 20vh;
+    height: 17vh;
   }
+
   .card__text-wrapper {
     justify-content: left;
     padding-left: 1em;
@@ -61,13 +63,18 @@ img {
     opacity: 0%;
   }
   .card {
-    height: 35vh;
+    height: 30vh;
     /* width: auto; */
   }
+
   .card:hover .card__information {
     opacity: 100%;
     transition: opacity 1s;
   }
 }
 @media screen and (min-width: 1360px) {
+  .card {
+    height: 40vh;
+    /* width: auto; */
+  }
 }

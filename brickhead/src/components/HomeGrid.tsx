@@ -1,6 +1,8 @@
 import "./HomeGrid.css";
 import { Link } from "react-router-dom";
 function HomeGrid() {
+  document.body.style.overflow = "visible";
+
   return (
     <div>
       <ul className="homepage-layout">
