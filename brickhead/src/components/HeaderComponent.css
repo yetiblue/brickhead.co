@@ -5,9 +5,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5em;
+  padding-top: 1em;
   position: relative;
   z-index: 60;
-  width: 100vw;
 }
 .header-wrapper__ul {
   display: flex;
@@ -132,7 +132,7 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
-    max-height: 4vh;
+    /* max-height: 4vh; */
   }
 }
 @media screen and (min-width: 1024px) {
@@ -162,6 +162,12 @@
   }
   .link:hover {
     -webkit-text-fill-color: white;
+  }
+  .header-wrapper__logo {
+    padding-top: 1em;
+    height: 12vh;
+    padding: none;
+    margin-left: -2.5em;
   }
   /* .header-wrapper {
     justify-content: center;

@@ -59,7 +59,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .card__information {
-    margin-top: 100%;
+    margin-top: 80%;
     visibility: hidden;
   }
   .card {

@@ -5,36 +5,40 @@ function Collaborators(props: any) {
     <div className="about-wrapper">
       <div className="about__description">
         <h2 className="about-about">ABOUT</h2>
-        <p className="about__description__p">
-          BrickHead is a NYC-based production company that specializes in
-          short-form content. From documentaries to music videos to short films,
-          we work with the best up-and-coming directors, producers,
-          cinematographers, editors, and VFX artists to offer a full-service,
-          one-stop shop for brands and artists.
-        </p>
+        <div className="description-justify">
+          <p className="about__description__p">
+            BrickHead is a NYC-based production company that specializes in
+            short-form content. From documentaries to music videos to short
+            films, we work with the best up-and-coming directors, producers,
+            cinematographers, editors, and VFX artists to offer a full-service,
+            one-stop shop for brands and artists.
+          </p>
+        </div>
         <hr></hr>
-        <ul className="about__executives">
-          <h2 className="about__executives__h2">TEAM</h2>
+        <h2 className="about__executives__h2">TEAM</h2>
 
-          <li className="about__executives__li">
-            <p className="about__executives__li__p">Executive Producers:</p>
-            <p className="about__executives__li__name">Bre Kelly</p>
-            <p className="about__executives__li__name">Adrian Sobrado</p>
-          </li>
-          <li className="about__executives__li">
-            <p className="about__executives__li__p">In-House Producers:</p>
-            <p className="about__executives__li__name">Harrison Allen</p>
-            <p className="about__executives__li__name">Nora Zubizarreta</p>
-          </li>
-          <li className="about__executives__li">
-            <p className="about__executives__li__p">VFX:</p>
-            <p className="about__executives__li__name">Joachim Pfefferkorn</p>
-          </li>
-          <li className="about__executives__li">
-            <p className="about__executives__li__p">Business Operations:</p>
-            <p className="about__executives__li__name">Dion White</p>
-          </li>
-        </ul>
+        <div className="executives-justify">
+          <ul className="about__executives">
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Executive Producers:</p>
+              <p className="about__executives__li__name">Bre Kelly</p>
+              <p className="about__executives__li__name">Adrian Sobrado</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">In-House Producers:</p>
+              <p className="about__executives__li__name">Harrison Allen</p>
+              <p className="about__executives__li__name">Nora Zubizarreta</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">VFX:</p>
+              <p className="about__executives__li__name">Joachim Pfefferkorn</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Business Operations:</p>
+              <p className="about__executives__li__name">Dion White</p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="collaborators-wrapper"></div>
       <hr></hr>

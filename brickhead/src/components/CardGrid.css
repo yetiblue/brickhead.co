@@ -11,7 +11,7 @@ li {
   justify-content: center;
 }
 .card-object {
-  /* max-width: 80vw; */
+  max-width: 80vw;
   margin-bottom: 2em;
 }
 .card-wrapper {
@@ -25,7 +25,7 @@ li {
   }
   .cardgrid-wrapper {
     max-width: 80vw;
-    padding-top: 1em;
+    padding-top: 2em;
   }
   .card-wrapper {
     display: flex;
