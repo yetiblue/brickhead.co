@@ -121,63 +121,6 @@ class HeaderComponent extends React.Component<any, any> {
             <li className="header-wrapper__li"></li>
           </ul>
         </div>
-
-        <ul className="header-wrapper__ul-desktop">
-          <ul className="header-wrapper__work">
-            Work
-            <div className="absolute-position">
-              {/* Work ▾ */}
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/branded">
-                  Branded Content
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/musicvideos">
-                  Music Videos
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/narrative">
-                  Narrative
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/documentary">
-                  Documentary
-                </Link>
-              </li>
-            </div>
-          </ul>
-
-          <ul className="header-wrapper__directors">
-            <Link
-              className="header-wrapper__directors__link"
-              to="/collaborators"
-            >
-              Collaborators
-            </Link>
-            {/* <div className="absolute-position">{collaboratorList}</div> */}
-          </ul>
-          <li className="header-wrapper__li">
-            {" "}
-            <a
-              href="https://www.lightrange.productions/"
-              className="about-link"
-              target="_blank"
-            >
-              VFX
-            </a>
-          </li>
-          <li className="header-wrapper__li">
-            <Link className="about-link" to="/about">
-              About
-            </Link>
-          </li>
-          <li className="header-wrapper__li"></li>
-        </ul>
       </div>
     );
   }

@@ -1,12 +1,13 @@
 .information-wrapper {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: left; */
+  padding-top: 1em;
 
   /* background-color: green; */
 }
 .information {
-  max-width: 100%;
+  max-width: 98%;
   padding: 0.2em;
 }
 .information__brand {
@@ -15,7 +16,7 @@
   text-decoration: underline;
 }
 .information__title {
-  font-size: 5vw;
+  font-size: 4vw;
   color: white;
   text-align: center;
   font-family: "disket_monobold";
@@ -26,8 +27,7 @@
   font-weight: bold;
   text-align: center;
   max-width: 100vw;
-  padding: 0.5em;
-  padding-top: none;
+
   font-family: "disket_monobold";
 }
 h1 {
@@ -66,13 +66,20 @@ p {
   }
 }
 @media screen and (min-width: 1360px) {
+  .information {
+    width: 100%;
+    position: relative;
+    /* left: -4em; */
+  }
   .information__brand {
-    font-size: 2vw;
+    font-size: 1em;
   }
   .information__title {
-    font-size: 2vw;
+    font-size: 1.7em;
+    text-align: left;
   }
   .information__director {
-    font-size: 1.2vw;
+    font-size: 1em;
+    text-align: left;
   }
 }

@@ -52,7 +52,7 @@
 }
 .header-wrapper__logo {
   width: auto;
-  height: 10vh;
+  height: 7vh;
   margin-left: -1em;
   stroke: white;
 }
@@ -136,9 +136,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .mobile-sidebar {
+  /* .mobile-sidebar {
     max-width: 50vw;
-  }
+  } */
   .header-wrapper__ul {
     margin-top: -3em;
     font-size: 1.3em;
@@ -149,7 +149,22 @@
 }
 @media screen and (min-width: 1360px) {
   .header-wrapper {
-    justify-content: left;
+    justify-content: space-around;
+  }
+  .mobile-sidebar {
+    width: 100vw;
+    /* background-size: cover; */
+    right: 0;
+  }
+  .header-wrapper__li {
+    font-size: 4em;
+    padding: 0.3em;
+  }
+  .link:hover {
+    -webkit-text-fill-color: white;
+  }
+  /* .header-wrapper {
+    justify-content: center;
     max-height: 5vh;
   }
 
@@ -215,5 +230,5 @@
   .header-wrapper__li {
     font-size: 1.1em;
     padding-top: 0.5em;
-  }
+  } */
 }

@@ -16,9 +16,9 @@
 /* .card:hover {
   transform: scale(1.2);
 } */
-.card:hover {
+/* .card:hover {
   transform: scale(1.02);
-}
+} */
 img {
   width: 100%;
   background: linear-gradient(
@@ -52,25 +52,23 @@ img {
   .card {
     height: 20vh;
   }
+  .card__text-wrapper {
+    justify-content: left;
+    padding-left: 1em;
+  }
 }
 @media screen and (min-width: 1024px) {
   .card__information {
-    margin-top: 20%;
-  }
-  .card {
-    height: 30vh;
-  }
-}
-@media screen and (min-width: 1360px) {
-  .card__information {
-    margin-top: 23%;
+    margin-top: 100%;
+    visibility: hidden;
   }
   .card {
     height: 35vh;
+    /* width: auto; */
+  }
+  .card:hover .card__information {
+    visibility: visible;
   }
 }
-@media screen and (min-width: 1500px) {
-  .card {
-    height: 50vh;
-  }
+@media screen and (min-width: 1360px) {
 }

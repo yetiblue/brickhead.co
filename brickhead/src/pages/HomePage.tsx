@@ -1,5 +1,6 @@
 import HeaderComponent from "../components/HeaderComponent";
 import HomeGrid from "../components/HomeGrid";
+import MainVideo from "../components/MainVideo";
 import { useEffect } from "react";
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
   return (
     <div>
       <HeaderComponent />
+      <MainVideo />
       <HomeGrid />
     </div>
   );

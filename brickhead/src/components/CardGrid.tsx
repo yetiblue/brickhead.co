@@ -29,23 +29,27 @@ function CardGrid() {
   // } else {
   console.log("nothing");
   cardContent = storeContent.map((card) => (
-    <li key={card.title} className="card-object">
-      <CardComponent
-        cardCategory={card.category}
-        cardTitle={card.title}
-        cardDirector={card.director}
-        cardSource={card.src}
-        cardThumbnail={card.thumbnail}
-      />
-    </li>
+    <div className="justify">
+      <li key={card.title} className="card-object">
+        <CardComponent
+          cardCategory={card.category}
+          cardTitle={card.title}
+          cardDirector={card.director}
+          cardSource={card.src}
+          cardThumbnail={card.thumbnail}
+        />
+      </li>
+    </div>
   ));
   // }
   let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
 
   return (
-    <div className="cardgrid-wrapper">
-      {gridContent}
-      {/* <Footer /> */}
+    <div className="justify-cardgrid">
+      <div className="cardgrid-wrapper">
+        {gridContent}
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 }
