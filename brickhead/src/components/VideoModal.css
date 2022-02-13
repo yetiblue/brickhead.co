@@ -64,4 +64,8 @@ iframe {
   .modal-title {
     font-size: 1.8em;
   }
+  .modal-wrapper-back {
+    top: 2.3em;
+    left: 2em;
+  }
 }

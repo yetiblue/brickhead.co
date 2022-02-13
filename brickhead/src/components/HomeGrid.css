@@ -91,6 +91,19 @@
   .homepage-item-v2 img {
     max-width: 40vw;
   }
+  .homepage-layout {
+    margin-top: 2em;
+  }
+  .homepage-item-v2 p {
+    left: 24em;
+    max-width: 20vw;
+    text-align: right;
+  }
+  .homepage-item-v2 h6 {
+    left: 43em;
+    max-width: 16vw;
+    text-align: right;
+  }
 }
 @media screen and (min-width: 1024px) {
   .homepage-item-v1 img {
@@ -151,6 +164,7 @@
     top: 20em;
     font-size: 1em;
     text-align: right;
+    left: 55em;
   }
   .homepage-item-v2 img {
     max-height: 50vh;
@@ -158,5 +172,6 @@
   }
   .homepage-item-v1 img {
     max-width: 50vw;
+    max-height: 50vh;
   }
 }
