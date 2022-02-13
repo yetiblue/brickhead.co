@@ -17,6 +17,10 @@
   position: relative;
   left: 6em;
   top: -3.5em;
+  transition: transform 0.7s;
+}
+.homepage-item-v1 img:hover {
+  transform: scale(1.1);
 }
 .homepage-item-v2 p {
   position: relative;
@@ -27,44 +31,87 @@
   text-align: left;
 }
 .homepage-item-v2 img {
-  max-width: 70vw;
+  max-width: 60vw;
   max-height: 18vh;
   position: relative;
   right: -2em;
   top: -4em;
+  transition: transform 0.7s;
+}
+.homepage-item-v2 img:hover {
+  transform: scale(1.1);
 }
 .homepage-item-v1 h6 {
-  font-size: 0.8em;
+  font-size: 0.6em;
   z-index: 3;
   position: relative;
-  top: 6em;
-  left: 2.6em;
+  top: 8em;
+  left: 3.5em;
   color: white;
+  max-width: 90vw;
 }
 .homepage-item-v2 h6 {
-  font-size: 0.8em;
-  z-index: 3;
+  max-width: 50vw;
+  font-size: 0.6em;
+  z-index: 4;
   position: relative;
-  top: 6em;
-  left: 15em;
+  top: 8em;
+  left: 20em;
   color: white;
   text-align: left;
 }
-@media screen and (min-width: 1368px) {
+.see-all {
+  color: white;
+  font-family: "disket_monoregular";
+  padding: 2em;
+  margin-top: -3em;
+  font-size: 0.8em;
+  transition: transform 0.7s;
+  text-decoration: none;
+}
+.see-all:hover {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 768px) {
   .homepage-item-v1 {
+    max-width: 30vw;
     margin-left: 40%;
     margin-bottom: 2em;
   }
+  .homepage-item-v2 {
+    margin-left: 10%;
+  }
+  .homepage-item-v1 img {
+    max-width: 30vw;
+  }
+  .homepage-item-v2 img {
+    max-width: 30vw;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .homepage-item-v1 {
+    max-width: 50vw;
+  }
+  .homepage-item-v1 img {
+    max-width: 25vw;
+    /* max-height: 50vh; */
+  }
+  .see-all {
+    font-size: 1em;
+    padding-top: 4em;
+  }
   .homepage-item-v1 p {
     font-size: 2em;
-    max-width: 30vw;
-    margin-left: -4em;
+    max-width: 25vw;
+    margin-left: -6em;
     position: relative;
+    top: 10em;
   }
-  .homepage-items-v1 h6 {
+  .homepage-item-v1 h6 {
     font-size: 1em;
     max-width: 30vw;
-    top: 10em;
+    top: 20em;
+    left: -15%;
   }
   .homepage-item-v2 {
     margin-left: 10%;
@@ -72,7 +119,17 @@
   }
   .homepage-item-v2 p {
     font-size: 2em;
-    max-width: 30vw;
+    top: 10em;
+    /* margin-left: 8em; */
+    left: 50%;
+    max-width: 25vw;
+    text-align: right;
+  }
+  .homepage-item-v2 h6 {
+    left: 68%;
+    top: 20em;
+    font-size: 1em;
+    /* text-align: right; */
   }
   .homepage-item-v2 img {
     max-height: 50vh;

@@ -4,7 +4,7 @@
 }
 .card {
   width: 100%;
-  transition: transform 0.4s;
+
   height: 20vh;
 
   /* padding: 0.2em; */
@@ -13,19 +13,17 @@
   max-width: 100%;
   background-color: black;
 }
-/* .card:hover {
-  transform: scale(1.2);
-} */
+
+.card:hover img {
+  opacity: 0.6;
+}
 /* .card:hover {
   transform: scale(1.02);
 } */
 img {
+  transition: 0.8s ease;
+
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.08) 14.58%,
-    #000000 88.54%
-  );
 }
 .card__category {
   position: absolute;
@@ -60,14 +58,15 @@ img {
 @media screen and (min-width: 1024px) {
   .card__information {
     margin-top: 80%;
-    visibility: hidden;
+    opacity: 0%;
   }
   .card {
     height: 35vh;
     /* width: auto; */
   }
   .card:hover .card__information {
-    visibility: visible;
+    opacity: 100%;
+    transition: opacity 1s;
   }
 }
 @media screen and (min-width: 1360px) {

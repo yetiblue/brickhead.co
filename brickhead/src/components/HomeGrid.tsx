@@ -1,38 +1,42 @@
 import "./HomeGrid.css";
+import { Link } from "react-router-dom";
 function HomeGrid() {
   return (
     <div>
       <ul className="homepage-layout">
         <li className="homepage-item-v1">
-          <p>Alexa Dark - Fade To Black And Blue</p>
-          <h6 className="homepage-director"> Dir. Giles Perkins</h6>
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/AlexaDarkSTILL.png" />
+          <p>Starr</p>
+          <h6 className="homepage-director"> Gabriel Crawford Connelly</h6>
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FINALSTILL.png" />
         </li>
         <li className="homepage-item-v2">
-          <p>Chloe Lilac - 10 Things</p>
-          <h6 className="homepage-director"> Dir. Ragan Henderson</h6>
+          <p>Legos</p>
+          <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/10ThingsStill.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg" />
         </li>
         <li className="homepage-item-v1">
-          <p>Saiko</p>
-          <h6 className="homepage-director"> Dir. Adrian Sobrado</h6>
+          <p>Neptune’s Dreams</p>
+          <h6 className="homepage-director"> Dir. Alex Fischman Cárdenas</h6>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SaikohSTILL.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/neptune_1.1.2-min.jpg" />
         </li>
         <li className="homepage-item-v2">
-          <p>Cece Coakley - Listerine</p>
-          <h6 className="homepage-director-jack"> Dir. Jack Simon</h6>
+          <p>Underscores - Gunk</p>
+          <h6 className="homepage-director-jack"> Dir. Ayodeji</h6>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ListerineSTILL.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg" />
         </li>
         <li className="homepage-item-v1">
-          <p>X2 Much Dope - Maison 2500</p>
-          <h6 className="homepage-director"> Dir. Nick Freeman</h6>
+          <p>Montell Fish - WINGS</p>
+          <h6 className="homepage-director"> Dir. Caleb Wild</h6>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Much+dope-min.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/MASTER+(SOUND).00_02_01_23.Still076-min.png" />
         </li>
       </ul>
+      <Link className="see-all" to="/work">
+        <p className="see-all">See All Work</p>
+      </Link>
     </div>
   );
 }
