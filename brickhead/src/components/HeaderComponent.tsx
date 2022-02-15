@@ -94,6 +94,7 @@ class HeaderComponent extends React.Component<any, any> {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
               />
             </Link>
+
             <a href="https://www.instagram.com/brickhead.co/" target="_blank">
               <img
                 className="header-wrapper__IG"

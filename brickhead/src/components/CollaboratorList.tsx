@@ -324,7 +324,7 @@ function Collaborators(props: any) {
               </p>
             </a>
           </li>
-          <li className="about__image__name">
+          {/* <li className="about__image__name">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
             <a
               href="https://vimeo.com/astern"
@@ -341,7 +341,7 @@ function Collaborators(props: any) {
                 abroad.
               </p>
             </a>
-          </li>
+          </li> */}
           <li className="about__image__name">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
 
@@ -440,32 +440,7 @@ function Collaborators(props: any) {
               </p>
             </a>
           </li>
-          <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
 
-            <a
-              className="list__link"
-              href="matthewoconnorfilms.com
-"
-              target="_blank"
-            >
-              <h4>Matthew O’Connor</h4>
-              <p>
-                Matthew is a director, writer and editor with a surreal visual
-                style and intuitive feel for comedic writing and rhythm. His
-                tone lends itself perfectly to the music video and comedy space.
-                His work ranges from hyper-stylized rap videos, heartfelt
-                commercials, comedy web series, short films and television. He
-                has directed multiple projects remotely, filming music videos
-                for South African artists while he was stationed in New York
-                City. Matt graduated from Tisch School of the Arts where he
-                created one of the lowest budget carbon neutral films on record.
-                The carbon neutral workflow he pioneered has been incorporated
-                into the curriculum of film schools across the country including
-                NYU Tisch School of the Arts.
-              </p>
-            </a>
-          </li>
           <li className="about__image__name">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Nick-min.png" />
 
@@ -484,7 +459,7 @@ function Collaborators(props: any) {
               </p>
             </a>
           </li>
-          <li className="about__image__name">
+          {/* <li className="about__image__name">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ListerineSTILL.png" />
 
             <a
@@ -504,7 +479,7 @@ function Collaborators(props: any) {
                 Porsh Bets.
               </p>
             </a>
-          </li>
+          </li> */}
           <li className="about__image__name">
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Alex_-min.png" />
 

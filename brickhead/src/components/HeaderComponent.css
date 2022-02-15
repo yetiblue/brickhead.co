@@ -53,7 +53,7 @@
 .header-wrapper__logo {
   width: auto;
   height: 7vh;
-  margin-left: -1em;
+  margin-left: 0.5em;
   stroke: white;
   background: none;
 }
@@ -139,6 +139,8 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
+    margin-left: 1em;
+
     /* max-height: 4vh; */
   }
   .header-wrapper__li {
@@ -177,7 +179,7 @@
     padding-top: 1em;
     height: 12vh;
     padding: none;
-    margin-left: -2.5em;
+    margin-left: -2em;
   }
   .sidebar-button {
     padding-left: 2em;

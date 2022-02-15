@@ -12,7 +12,11 @@ function Collaborators(props: any) {
             films, we work with the best up-and-coming directors, producers,
             cinematographers, editors, and VFX artists to offer a full-service,
             one-stop shop for brands and artists.
+            <br></br>
           </p>
+          <a className="mailto" href="mailto:bre@brickhead.co">
+            Contact Us
+          </a>
         </div>
         <hr></hr>
         <h2 className="about__executives__h2">TEAM</h2>
