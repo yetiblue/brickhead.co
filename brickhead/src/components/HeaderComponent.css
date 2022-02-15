@@ -53,7 +53,7 @@
 .header-wrapper__logo {
   width: auto;
   height: 7vh;
-  margin-left: 0.5em;
+  margin-left: -2em;
   stroke: white;
   background: none;
 }
@@ -61,6 +61,7 @@
   width: auto;
   height: 4vh;
   background: none;
+  padding-right: 1em;
 }
 .mobile-sidebar {
   left: 0;
