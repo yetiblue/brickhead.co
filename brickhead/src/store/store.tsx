@@ -9,6 +9,15 @@ interface VideoList {
   route: string;
 }
 let videoList: VideoList[] = [
+  // {
+  //   category: "Music Video",
+  //   src: "https://player.vimeo.com/video/561861537?h=cc6bed8ee6&title=0&byline=0&portrait=0",
+  //   director: "Sophie Hur",
+  //   title: "DIZZY",
+  //   route: "musicvideos",
+  //   thumbnail:
+  //     "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/DIZZY1-min.jpg",
+  // },
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/561861537?h=cc6bed8ee6&title=0&byline=0&portrait=0",

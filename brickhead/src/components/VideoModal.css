@@ -18,7 +18,7 @@
   text-align: center;
   margin-top: 2em;
   position: relative;
-  right: 0.5em;
+  /* right: 0.5em; */
   font-family: "disket_monobold";
 }
 .modal-credits {

@@ -13,7 +13,9 @@
   max-width: 100%;
   background-color: black;
 }
-
+.card__thumbnail img {
+  opacity: 75%;
+}
 .card:hover img {
   opacity: 0.6;
 }
@@ -79,6 +81,9 @@ img {
     opacity: 100%;
     transition: opacity 1s;
   }
+  .card__thumbnail img {
+    opacity: 100%;
+  }
 }
 @media screen and (min-width: 1360px) {
   .card {
@@ -87,5 +92,7 @@ img {
   }
   .card__information {
     margin-top: 70%;
+    max-width: 90%;
+    padding: 1.5em;
   }
 }

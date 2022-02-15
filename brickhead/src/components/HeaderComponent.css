@@ -147,6 +147,10 @@
     font-size: 2em;
     padding: 0.5em;
   }
+  .header-wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 @media screen and (min-width: 1024px) {
   /* .mobile-sidebar {
@@ -180,6 +184,11 @@
     height: 12vh;
     padding: none;
     margin-left: -2em;
+    transition: transform 1.1s;
+  }
+  .header-wrapper__logo:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
   }
   .sidebar-button {
     padding-left: 2em;
