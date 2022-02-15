@@ -26,9 +26,9 @@ function CardComponent(props) {
       {renderModal}
       <div className="card">
         <div className="card__text-wrapper">
-          {/* <div className="card__category">
+          <div className="card__category">
             <CardCategory categoryName={props.cardCategory} />
-          </div> */}
+          </div>
           <div
             onClick={() => {
               setModalOpen(!modalOpen);

@@ -189,6 +189,15 @@ let videoList: VideoList[] = [
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/LOVE+IN+THE+DARK+stills_1.2.5-min.jpg",
   },
   {
+    category: "Music Video",
+    src: "https://player.vimeo.com/video/670166440?h=7fe2d67bad&title=0&byline=0&portrait=0",
+    director: "Andrew Stern",
+    title: "Underscores -  Everybody’s Dead",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png",
+  },
+  {
     category: "Branded Content",
     src: "https://player.vimeo.com/video/595472127?h=3090842b6d&title=0&byline=0&portrait=0",
     director: "Jack Simon",

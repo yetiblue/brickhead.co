@@ -4,7 +4,7 @@ function Collaborators(props: any) {
   document.body.style.overflow = "visible";
   return (
     <div>
-      <div className="about-wrapper__list">
+      {/* <div className="about-wrapper__list">
         <div className="collaborators-wrapper">
           <ul className="about__collaborators">
             <li>
@@ -282,12 +282,12 @@ function Collaborators(props: any) {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className="collaborators-mobile">
         <h2 className="collaborators-title">COLLABORATORS</h2>
         <ul className="about__collaborators">
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FINALSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Ewurakua_-min.jpg" />
             <a
               href="https://www.byraekua.com/"
               className="list__link"
@@ -362,7 +362,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Tashi_-min.jpg" />
 
             <a
               className="list__link"
@@ -381,7 +381,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Ragan-min.jpg" />
 
             <a
               className="list__link"
@@ -467,7 +467,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Nick-min.png" />
 
             <a
               className="list__link"
@@ -485,7 +485,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ListerineSTILL.png" />
 
             <a
               className="list__link"
@@ -506,7 +506,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Alex_-min.png" />
 
             <a
               className="list__link"
@@ -526,7 +526,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Caleb-min.png" />
 
             <a
               className="list__link"
@@ -546,7 +546,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Zen-min.png" />
 
             <a
               className="list__link"
@@ -570,7 +570,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Mike-min.png" />
 
             <a
               className="list__link"
