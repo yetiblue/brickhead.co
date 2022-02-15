@@ -13,6 +13,8 @@ function CardComponent(props) {
       <VideoModal
         closeModal={[modalOpen, setModalOpen]}
         videoSource={props.cardSource}
+        videoTitle={props.cardTitle}
+        directorName={props.cardDirector}
       />
     );
   } else {
@@ -27,7 +29,12 @@ function CardComponent(props) {
           <div className="card__category">
             <CardCategory categoryName={props.cardCategory} />
           </div>
-          <div className="card__information">
+          <div
+            onClick={() => {
+              setModalOpen(!modalOpen);
+            }}
+            className="card__information"
+          >
             <CardInformation
               companyName={props.cardCompany}
               videoTitle={props.cardTitle}

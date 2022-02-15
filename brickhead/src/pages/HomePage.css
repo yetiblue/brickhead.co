@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.line {
+  position: absolute;
+  background: none;
+  height: 5vh;
+  border: 1px solid black;
+}

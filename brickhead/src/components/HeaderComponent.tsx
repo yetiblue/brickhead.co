@@ -65,50 +65,64 @@ class HeaderComponent extends React.Component<any, any> {
     );
     return (
       <div className="header-wrapper">
+        <button onClick={this.openSidebar} className="sidebar-button">
+          {" "}
+          ☰
+        </button>
         <Link to="/">
           <img
             className="header-wrapper__logo"
-            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/IMG_0427.jpg"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
           />
         </Link>
-        <div className={sidebar}>
-          <button onClick={this.openSidebar} className="close-sidebar-button">
-            X
-          </button>
-          <ul className="header-wrapper__ul">
-            <ul className="header-wrapper__work">
-              Work ▾
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/branded">
-                  Branded Content
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/musicvideos">
-                  Music Videos
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/narrative">
-                  Narrative
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/documentary">
-                  Documentary
-                </Link>
-              </li>
-            </ul>
+        <a href="https://www.instagram.com/brickhead.co/" target="_blank">
+          <img
+            className="header-wrapper__IG"
+            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+          />
+        </a>
 
-            <ul className="header-wrapper__directors">
+        <div className={sidebar}>
+          <div className="sidebar-logos">
+            <button onClick={this.openSidebar} className="sidebar-button">
+              {" "}
+              ☰
+            </button>
+            <Link to="/">
+              <img
+                className="header-wrapper__logo"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
+              />
+            </Link>
+
+            <a href="https://www.instagram.com/brickhead.co/" target="_blank">
+              <img
+                className="header-wrapper__IG"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+              />
+            </a>
+          </div>
+
+          <ul className="header-wrapper__ul">
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/work">
+                WORK
+              </Link>
+            </li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/about">
+                ABOUT
+              </Link>
+            </li>
+
+            <li className="header-wrapper__li">
               {" "}
               <Link className="link" to="/collaborators">
-                Collaborators
+                COLLABORATORS
               </Link>
-            </ul>
+            </li>
 
             <li className="header-wrapper__li">
               {" "}
@@ -120,75 +134,10 @@ class HeaderComponent extends React.Component<any, any> {
                 VFX
               </a>
             </li>
-            <li className="header-wrapper__li">
-              {" "}
-              <Link className="link" to="/about">
-                About
-              </Link>
-            </li>
+
             <li className="header-wrapper__li"></li>
           </ul>
         </div>
-        <button onClick={this.openSidebar} className="sidebar-button">
-          {" "}
-          ☰
-        </button>
-        <ul className="header-wrapper__ul-desktop">
-          <ul className="header-wrapper__work">
-            Work
-            <div className="absolute-position">
-              {/* Work ▾ */}
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/branded">
-                  Branded Content
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                {" "}
-                <Link className="link" to="/musicvideos">
-                  Music Videos
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/narrative">
-                  Narrative
-                </Link>
-              </li>
-              <li className="header-wrapper__work__li">
-                <Link className="link" to="/documentary">
-                  Documentary
-                </Link>
-              </li>
-            </div>
-          </ul>
-
-          <ul className="header-wrapper__directors">
-            <Link
-              className="header-wrapper__directors__link"
-              to="/collaborators"
-            >
-              Collaborators
-            </Link>
-            {/* <div className="absolute-position">{collaboratorList}</div> */}
-          </ul>
-          <li className="header-wrapper__li">
-            {" "}
-            <a
-              href="https://www.lightrange.productions/"
-              className="about-link"
-              target="_blank"
-            >
-              VFX
-            </a>
-          </li>
-          <li className="header-wrapper__li">
-            <Link className="about-link" to="/about">
-              About
-            </Link>
-          </li>
-          <li className="header-wrapper__li"></li>
-        </ul>
       </div>
     );
   }

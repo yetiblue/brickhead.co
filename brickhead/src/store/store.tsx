@@ -9,6 +9,15 @@ interface VideoList {
   route: string;
 }
 let videoList: VideoList[] = [
+  // {
+  //   category: "Music Video",
+  //   src: "https://player.vimeo.com/video/561861537?h=cc6bed8ee6&title=0&byline=0&portrait=0",
+  //   director: "Sophie Hur",
+  //   title: "DIZZY",
+  //   route: "musicvideos",
+  //   thumbnail:
+  //     "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/DIZZY1-min.jpg",
+  // },
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/561861537?h=cc6bed8ee6&title=0&byline=0&portrait=0",
@@ -70,7 +79,7 @@ let videoList: VideoList[] = [
     title: "Montell Fish - WINGS",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/wings-min.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/MASTER+(SOUND).00_02_01_23.Still076-min.png",
   },
   {
     category: "Music Video",
@@ -157,7 +166,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src: "https://player.vimeo.com/video/642717618?h=0e3c4c9d7d&title=0&byline=0&portrait=0",
     director: "ayodeji",
-    title: "underscores - gunk",
+    title: "Underscores - gunk",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg",
@@ -187,6 +196,15 @@ let videoList: VideoList[] = [
     route: "branded",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/LOVE+IN+THE+DARK+stills_1.2.5-min.jpg",
+  },
+  {
+    category: "Music Video",
+    src: "https://player.vimeo.com/video/670166440?h=7fe2d67bad&title=0&byline=0&portrait=0",
+    director: "Andrew Stern",
+    title: "Underscores -  Everybody’s Dead",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png",
   },
   {
     category: "Branded Content",
@@ -239,6 +257,24 @@ let videoList: VideoList[] = [
     route: "narrative",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Games+we+play-min.png",
+  },
+  {
+    category: "Music Video",
+    src: "https://player.vimeo.com/video/639321337?h=04aa0e9bf6&title=0&byline=0&portrait=0",
+    director: "Henry DaCosta",
+    title: "Legos",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg",
+  },
+  {
+    category: "Branded Content",
+    src: "https://player.vimeo.com/video/656167638?h=1fee9f7823&title=0&byline=0&portrait=0",
+    director: "Alex Fischman",
+    title: "Neptune's Dreams",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/neptune_1.1.2-min.jpg",
   },
 ];
 function list(state = videoList, action: any) {

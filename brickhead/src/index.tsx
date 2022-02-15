@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import HomePage from "./pages/HomePage";
-import CardGrid from "./components/CardGrid";
 import AboutPage from "./pages/AboutPage";
+import WorkPage from "./pages/WorkPage";
 import CollaboratorsPage from "./pages/CollaboratorsPage";
 import reportWebVitals from "./reportWebVitals";
+import "./disketfont/stylesheet.css";
+import "./b612font/stylesheet.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
@@ -13,9 +15,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         {/* <CardGrid /> */}
-        <Route path="/" element={<HomePage />}>
-          <Route path=":category" element={<CardGrid />}></Route>
-        </Route>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/work" element={<WorkPage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/collaborators" element={<CollaboratorsPage />}></Route>
       </Routes>

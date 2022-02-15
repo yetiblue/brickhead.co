@@ -4,41 +4,45 @@ function Collaborators(props: any) {
   return (
     <div className="about-wrapper">
       <div className="about__description">
-        <p className="about__description__p">
-          BrickHead is a NYC-based production company that specializes in
-          short-form content. From documentaries to music videos to short films,
-          we work with the best up-and-coming directors, producers,
-          cinematographers, editors, and VFX artists to offer a full-service,
-          one-stop shop for brands and artists.
-        </p>
+        <h2 className="about-about">ABOUT</h2>
+        <div className="description-justify">
+          <p className="about__description__p">
+            BrickHead is a NYC-based production company that specializes in
+            short-form content. From documentaries to music videos to short
+            films, we work with the best up-and-coming directors, producers,
+            cinematographers, editors, and VFX artists to offer a full-service,
+            one-stop shop for brands and artists.
+            <br></br>
+          </p>
+          <a className="mailto" href="mailto:bre@brickhead.co">
+            Contact Us
+          </a>
+        </div>
+        <hr></hr>
+        <h2 className="about__executives__h2">TEAM</h2>
 
-        <ul className="about__executives">
-          <h3 className="about__executives__h3">Team</h3>
-
-          <li className="about__executives__li">
-            <p>Executive Producers:</p>
-            <p>Bre Kelly</p>
-            <p>Adrian Sobrado</p>
-          </li>
-          <li className="about__executives__li">
-            <p>In-House Producers:</p>
-            <p>Harrison Allen</p>
-            <p>Nora Zubizarreta</p>
-          </li>
-          <li className="about__executives__li">
-            <p>VFX:</p>
-            <p>Joachim Pfefferkorn</p>
-          </li>
-          <li className="about__executives__li">
-            <p>Business Operations:</p>
-            <p>Dion White</p>
-          </li>
-
-          <h3 className="about__executives__h3">Contact</h3>
-          <li>
-            <p>bre@brickhead.co </p>
-          </li>
-        </ul>
+        <div className="executives-justify">
+          <ul className="about__executives">
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Executive Producers:</p>
+              <p className="about__executives__li__name">Bre Kelly</p>
+              <p className="about__executives__li__name">Adrian Sobrado</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">In-House Producers:</p>
+              <p className="about__executives__li__name">Harrison Allen</p>
+              <p className="about__executives__li__name">Nora Zubizarreta</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">VFX:</p>
+              <p className="about__executives__li__name">Joachim Pfefferkorn</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Business Operations:</p>
+              <p className="about__executives__li__name">Dion White</p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="collaborators-wrapper"></div>
       <hr></hr>

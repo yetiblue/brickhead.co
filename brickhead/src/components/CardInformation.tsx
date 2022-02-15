@@ -5,6 +5,7 @@ function CardInformation(props: any) {
       <div className="information">
         <h1 className="information__brand">{props.companyName}</h1>
         <h1 className="information__title">{props.videoTitle}</h1>
+        <br></br>
         <p className="information__director">Dir. {props.directorName}</p>
       </div>
     </div>

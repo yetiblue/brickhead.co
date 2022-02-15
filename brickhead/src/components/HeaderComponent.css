@@ -1,26 +1,30 @@
 .header-wrapper {
   max-width: 100vw;
-  max-height: 6vh;
+  height: 12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5em;
-  background-color: rgb(240, 248, 248);
-  position: fixed;
+  padding-top: 1em;
+  position: relative;
   z-index: 60;
-  width: 100vw;
-  background-color: rgb(240, 236, 20);
 }
 .header-wrapper__ul {
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 .header-wrapper__li {
   padding: 1em;
+  display: flex;
+  justify-content: center;
+  font-family: "disket_monobold";
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px white;
+  font-size: 2em;
 }
-.header-wrapper__work {
-  padding: 1em;
-}
+
 .header-wrapper__work:hover .header-wrapper__work__li {
   margin-top: 0.5em;
   padding-left: 1em;
@@ -30,9 +34,7 @@
 .header-wrapper__work__li {
   display: none;
 }
-.header-wrapper__directors {
-  padding: 1em;
-}
+
 .header-wrapper__directors__link {
   text-decoration: none;
   color: black;
@@ -49,21 +51,28 @@
   display: none;
 }
 .header-wrapper__logo {
-  max-width: 15vw;
-  max-height: 5vh;
-  padding-left: 0.5em;
+  width: auto;
+  height: 7vh;
+  margin-left: 0.5em;
+  stroke: white;
+  background: none;
+}
+.header-wrapper__IG {
+  width: auto;
+  height: 4vh;
+  background: none;
 }
 .mobile-sidebar {
-  background-color: black;
-  right: 0;
+  left: 0;
   top: 0;
   color: white;
-  width: 60vw;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   z-index: 21;
   padding-top: 2em;
   font-size: 1.2em;
+  background-image: url("https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/About-min.png");
 }
 .mobile-sidebar-hide {
   display: none;
@@ -83,13 +92,14 @@
   left: 70%;
   border: none;
   padding: 1em;
-  background-color: black;
+  background: none;
   color: white;
 }
 .sidebar-button {
-  padding-right: 1em;
+  /* padding-right: 1em; */
   font-size: 2em;
   border: none;
+  color: white;
   background-color: rgba(255, 255, 255, 0);
 }
 .header-wrapper__ul-desktop {
@@ -98,6 +108,8 @@
 .link {
   text-decoration: none;
   color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px white;
 }
 .link:hover {
   color: blueviolet;
@@ -108,6 +120,11 @@
 }
 .about-link:hover {
   color: blueviolet;
+}
+.sidebar-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .sidebar-button {
@@ -122,15 +139,24 @@
   }
   .header-wrapper__logo {
     max-width: 10vw;
-    max-height: 4vh;
+    margin-left: 1em;
+
+    /* max-height: 4vh; */
+  }
+  .header-wrapper__li {
+    font-size: 2em;
+    padding: 0.5em;
+  }
+  .header-wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 @media screen and (min-width: 1024px) {
-  .mobile-sidebar {
+  /* .mobile-sidebar {
     max-width: 50vw;
-  }
+  } */
   .header-wrapper__ul {
-    margin-top: -3em;
     font-size: 1.3em;
   }
   .header-wrapper__logo {
@@ -139,7 +165,42 @@
 }
 @media screen and (min-width: 1360px) {
   .header-wrapper {
-    justify-content: left;
+    justify-content: space-between;
+  }
+  .mobile-sidebar {
+    width: 100vw;
+    /* background-size: cover; */
+    right: 0;
+  }
+  .header-wrapper__li {
+    font-size: 4.5em;
+    padding: 0.1em;
+  }
+  .link:hover {
+    -webkit-text-fill-color: rgb(255, 255, 255);
+  }
+  .header-wrapper__logo {
+    padding-top: 1em;
+    height: 12vh;
+    padding: none;
+    margin-left: -2em;
+    transition: transform 1.1s;
+  }
+  .header-wrapper__logo:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
+  }
+  .sidebar-button {
+    padding-left: 2em;
+    /* margin-left: -5em; */
+    /* padding-right: 20em; */
+  }
+  .header-wrapper__IG {
+    padding-right: 2em;
+  }
+
+  /* .header-wrapper {
+    justify-content: center;
     max-height: 5vh;
   }
 
@@ -205,5 +266,5 @@
   .header-wrapper__li {
     font-size: 1.1em;
     padding-top: 0.5em;
-  }
+  } */
 }
