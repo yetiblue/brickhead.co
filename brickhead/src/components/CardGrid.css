@@ -35,9 +35,12 @@ li {
     flex-wrap: wrap;
   }
 }
-@media screen and (mind-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .card-object {
-    margin-bottom: 10em;
+    margin-bottom: 15em;
+    height: 15vh;
+    /* width: 30vw; */
+    /* height: auto; */
   }
 }
 @media screen and (min-width: 1368px) {
