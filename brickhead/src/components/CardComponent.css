@@ -98,6 +98,10 @@ img {
   }
   .card__category {
     width: 35vw;
+    opacity: 0;
+  }
+  .card__information {
+    opacity: 0;
   }
   .card:hover .card__information {
     opacity: 100%;
