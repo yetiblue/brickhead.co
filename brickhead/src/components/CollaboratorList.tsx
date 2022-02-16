@@ -308,15 +308,15 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FINALSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg" />
             <a
               className="list__link"
               href="https://www.gabrielconnelly.com/
 "
               target="_blank"
             >
-              <h4>Gabriel Crawford Connelly </h4>
-              <p>
+              <h4 className="list__link">Gabriel Crawford Connelly </h4>
+              <p className="collab-description">
                 Gabriel Crawford Connelly is a cinematographer and director
                 based in New York and Los Angeles. His work has received Vimeo
                 Staff Picks, Berlin Commercial Awards, and has been nominated
@@ -351,7 +351,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Zach Dov Wiesel</h4>
+              <h4 className="list__link">Zach Dov Wiesel</h4>
               <p>
                 Zac Dov Wiesel is an Australian born director currently based in
                 New York. He specialises in music-videos, working closely with
@@ -362,7 +362,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Tashi_-min.jpg" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Tashi+-2-min.jpg" />
 
             <a
               className="list__link"
@@ -370,7 +370,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Tashi B. </h4>
+              <h4 className="list__link">Tashi B. </h4>
               <p>
                 Born in East India and raised in Queens, New York, Tashi is a
                 photographer and filmmaker based in NYC. Her main focus being
@@ -381,7 +381,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Ragan-min.jpg" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Ragan-2-min.jpg" />
 
             <a
               className="list__link"
@@ -390,7 +390,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Ragan Henderson </h4>
+              <h4 className="list__link">Ragan Henderson </h4>
               <p>
                 Ragan Henderson is a New York-based creative, specializing in
                 directing and image making. She is fueled by telling diverse
@@ -412,7 +412,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Georgia Krause</h4>
+              <h4 className="list__link">Georgia Krause</h4>
               <p>
                 Georgia is a documentary filmmaker currently based in San Diego.
                 They have worked on productions with ABC and National
@@ -429,7 +429,7 @@ function Collaborators(props: any) {
             <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Talia+-min.jpg" />
 
             <a className="list__link" href="/" target="_blank">
-              <h4>Talia Smith</h4>
+              <h4 className="list__link">Talia Smith</h4>
               <p>
                 A filmmaker born and raised in South Africa. Her country’s rich
                 heritage inspired her storytelling aspirations from a young age.
@@ -450,7 +450,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Nick Freeman</h4>
+              <h4 className="list__link">Nick Freeman</h4>
               <p>
                 Nick is a filmmaker who has directed music videos for various
                 artists such as Jessie Reyez, Lil Tjay, Polo G, Fivio Foreign,
@@ -489,7 +489,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Alex Fischman</h4>
+              <h4 className="list__link">Alex Fischman</h4>
               <p>
                 Alex Fischman Cárdenas’s career began at 17, he directed the
                 award-winning short film La Vieja Quinta, which traveled across
@@ -509,7 +509,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Caleb Wild</h4>
+              <h4 className="list__link">Caleb Wild</h4>
               <p>
                 Caleb interned at A24 and worked as a script researcher on the
                 film Waves. He has won over a dozen top prizes at film
@@ -529,7 +529,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Zen Pace</h4>
+              <h4 className="list__link">Zen Pace</h4>
               <p>
                 Zen Zadih Pace is a multi-hyphenate nonbinary creator, born and
                 raised in Flint, Michigan. That upbringing and over 4 years of
@@ -553,7 +553,7 @@ function Collaborators(props: any) {
 "
               target="_blank"
             >
-              <h4>Mike Klubeck</h4>
+              <h4 className="list__link">Mike Klubeck</h4>
               <p>
                 Mike Klubeck is a video director based out of New York City. His
                 short films he has directed have been played at festivals around
