@@ -116,7 +116,7 @@ img {
     display: flex;
     align-items: bottom;
     width: 30vw;
-    padding: 1.5em;
+    padding: 2em;
     padding-top: 2em;
   }
   .card__thumbnail img {

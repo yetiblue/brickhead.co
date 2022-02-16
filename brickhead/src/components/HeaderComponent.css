@@ -71,8 +71,9 @@
   height: 100vh;
   position: absolute;
   z-index: 21;
-  padding-top: 2em;
-  font-size: 1.2em;
+  padding-top: 2.2em;
+  padding-left: 1em;
+  /* font-size: 1.2em; */
   background-image: url("https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/About-min.png");
 }
 .mobile-sidebar-hide {
@@ -128,6 +129,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: -1.8em;
+  padding-right: 2em;
 }
 @media screen and (min-width: 768px) {
   .sidebar-button {
@@ -164,6 +166,11 @@
   }
   .header-wrapper__logo {
     max-width: 7vw;
+    transition: transform 1.1s;
+  }
+  .header-wrapper__logo:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
   }
 }
 @media screen and (min-width: 1360px) {
