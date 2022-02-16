@@ -12,8 +12,10 @@ function HomeGrid() {
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg" />
         </li>
         <li className="homepage-item-v2">
-          <p>Legos</p>
-          <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
+          <div className="homepage-item-v2-text">
+            <p>Legos</p>
+            <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
+          </div>
 
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg" />
         </li>
@@ -24,8 +26,10 @@ function HomeGrid() {
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/neptune_1.1.2-min.jpg" />
         </li>
         <li className="homepage-item-v2">
-          <p>Underscores - Gunk</p>
-          <h6 className="homepage-director-jack"> Dir. Ayodeji</h6>
+          <div className="homepage-item-v2-text">
+            <p>Underscores - Gunk</p>
+            <h6 className="homepage-director-jack"> Dir. Ayodeji</h6>
+          </div>
 
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg" />
         </li>

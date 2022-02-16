@@ -38,6 +38,7 @@ img {
   display: flex;
   justify-content: center;
   opacity: 1;
+  /* border: 1px solid white; */
 }
 .card__information {
   position: absolute;
@@ -83,7 +84,7 @@ img {
   }
   .card__category {
     opacity: 1;
-    width: 30vw;
+    width: 35vw;
   }
 
   .card__thumbnail img {

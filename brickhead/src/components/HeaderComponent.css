@@ -177,10 +177,23 @@
   .header-wrapper__logo {
     max-width: 7vw;
     transition: transform 1.1s;
+    height: 10vh;
   }
   .header-wrapper__logo:hover {
     transform: scale(1.2);
     filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
+  }
+  .sidebar-button {
+    transition: transform 1s;
+  }
+  .sidebar-button:hover {
+    transform: scale(1.2);
+  }
+  .header-wrapper__IG {
+    transition: transform 1s;
+  }
+  .header-wrapper__IG:hover {
+    transform: scale(1.2);
   }
 }
 @media screen and (min-width: 1360px) {
@@ -209,13 +222,16 @@
   .header-wrapper__logo:hover {
     transform: scale(1.2);
     filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
+    filter: drop-shadow(0 20px 0.85rem rgb(14, 214, 221));
   }
   .sidebar-button {
     padding-left: 1em;
     font-size: 2em;
+
     /* margin-left: -5em; */
     /* padding-right: 20em; */
   }
+
   .header-wrapper__IG {
     padding-right: 2em;
   }

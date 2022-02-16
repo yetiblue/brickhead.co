@@ -66,7 +66,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/637492846?h=cd6b2d78dd&title=0&byline=0&portrait=0",
-    director: "Jack Simon",
+    director: "Jack Doc Simon",
     title: "Cece Coakley - Listerine",
     route: "musicvideos",
     thumbnail:
@@ -102,7 +102,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/620023024?h=f352a6a785&title=0&byline=0&portrait=0",
-    director: "Jack Simon",
+    director: "Jack Doc Simon",
     title: "Porsh Bet$ - Neiman Marcus ",
     route: "musicvideos",
     thumbnail:
@@ -129,7 +129,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/578216069?h=005636ca71&title=0&byline=0&portrait=0",
-    director: "Jack Simon",
+    director: "Jack Doc Simon",
     title: "EVIL - Wrecked",
     route: "musicvideos",
     thumbnail:
@@ -156,7 +156,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/586536109?h=a3139abab3&title=0&byline=0&portrait=0",
-    director: "Jack Simon",
+    director: "Jack Doc Simon",
     title: "Porsh Bet$ - Peanut Butter",
     route: "musicvideos",
     thumbnail:
@@ -189,7 +189,7 @@ let videoList: VideoList[] = [
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FreakshowSTILL.png",
   },
   {
-    category: "Branded Content",
+    category: "Branded",
     src: "https://player.vimeo.com/video/435362122?h=96ab3a67c8&title=0&byline=0&portrait=0",
     director: "Nick Freeman",
     title: "Love in the Dark - Jessie Reyez",
@@ -207,16 +207,16 @@ let videoList: VideoList[] = [
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png",
   },
   {
-    category: "Branded Content",
+    category: "Branded",
     src: "https://player.vimeo.com/video/595472127?h=3090842b6d&title=0&byline=0&portrait=0",
-    director: "Jack Simon",
+    director: "Jack Doc Simon",
     title: "US Mogul Ski Team Summer Training Edit",
     route: "branded",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SKISTILL+(1).png",
   },
   // {
-  //   category: "Branded Content",
+  //   category: "Branded",
   //   src: "https://player.vimeo.com/video/670940741?h=d9a325566e&title=0&byline=0&portrait=0",
   //   director: "Zen Pace",
   //   title: "Americares",
@@ -224,7 +224,7 @@ let videoList: VideoList[] = [
   //   thumbnail: "",
   // },
   // {
-  //   category: "Branded Content",
+  //   category: "Branded",
   //   src: "https://player.vimeo.com/video/670518670?h=f13f793351&title=0&byline=0&portrait=0",
   //   director: "James Dayton",
   //   title: "Rise, For Bedstuy Restoration",
@@ -268,7 +268,7 @@ let videoList: VideoList[] = [
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg",
   },
   {
-    category: "Branded Content",
+    category: "Branded",
     src: "https://player.vimeo.com/video/656167638?h=1fee9f7823&title=0&byline=0&portrait=0",
     director: "Alex Fischman",
     title: "Neptune's Dreams",
