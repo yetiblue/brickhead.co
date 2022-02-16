@@ -53,7 +53,7 @@
 .header-wrapper__logo {
   width: auto;
   height: 7vh;
-  margin-left: -2em;
+  margin-left: -1.8em;
   stroke: white;
   background: none;
 }
@@ -102,6 +102,7 @@
   border: none;
   color: white;
   background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
 .header-wrapper__ul-desktop {
   display: none;
@@ -126,10 +127,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -1.8em;
 }
 @media screen and (min-width: 768px) {
   .sidebar-button {
-    font-size: 2.3em;
+    font-size: 2em;
   }
   .header-wrapper__ul {
     font-size: 1.4em;
@@ -184,7 +186,7 @@
     padding-top: 1em;
     height: 12vh;
     padding: none;
-    margin-left: -2em;
+    /* margin-left: -2em; */
     transition: transform 1.1s;
   }
   .header-wrapper__logo:hover {
@@ -192,7 +194,8 @@
     filter: drop-shadow(0 0 0.85rem rgb(238, 38, 78));
   }
   .sidebar-button {
-    padding-left: 2em;
+    padding-left: 1em;
+    font-size: 2em;
     /* margin-left: -5em; */
     /* padding-right: 20em; */
   }

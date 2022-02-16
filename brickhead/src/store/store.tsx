@@ -61,7 +61,7 @@ let videoList: VideoList[] = [
     title: "Chloe Lilac - 10 things ",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/10ThingsStill.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/10ThingsStill2-min.jpg",
   },
   {
     category: "Music Video",
@@ -79,7 +79,7 @@ let videoList: VideoList[] = [
     title: "Montell Fish - WINGS",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/MASTER+(SOUND).00_02_01_23.Still076-min.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Graded_WINGS_FINAL_ProRes00000000.00_00_44_16.Still005-min.jpeg",
   },
   {
     category: "Music Video",
@@ -238,7 +238,7 @@ let videoList: VideoList[] = [
     title: "Starr",
     route: "documentary",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FINALSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg",
   },
   {
     category: "Documentary",
@@ -256,7 +256,7 @@ let videoList: VideoList[] = [
     title: "These Games We Play",
     route: "narrative",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Games+we+play-min.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/tgwp_2-min.jpg",
   },
   {
     category: "Music Video",

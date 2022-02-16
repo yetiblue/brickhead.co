@@ -9,7 +9,7 @@ function HomeGrid() {
         <li className="homepage-item-v1">
           <p>Starr</p>
           <h6 className="homepage-director"> Gabriel Crawford Connelly</h6>
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FINALSTILL.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg" />
         </li>
         <li className="homepage-item-v2">
           <p>Legos</p>

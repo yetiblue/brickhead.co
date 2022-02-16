@@ -80,11 +80,11 @@
   }
   .homepage-item-v2 {
     max-width: 40vw;
+    margin-left: 4%;
+
     /* margin-bottom: 3em; */
   }
-  .homepage-item-v2 {
-    margin-left: 10%;
-  }
+
   .homepage-item-v1 img {
     max-width: 40vw;
   }
@@ -148,7 +148,7 @@
     left: -16%;
   }
   .homepage-item-v2 {
-    margin-left: 10%;
+    margin-left: 6%;
     margin-bottom: 2em;
     max-width: 50%;
   }

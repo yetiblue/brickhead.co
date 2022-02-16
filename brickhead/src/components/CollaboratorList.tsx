@@ -404,7 +404,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Screen+Shot+2022-02-14+at+8.54.36+PM-min.png" />
 
             <a
               className="list__link"
@@ -426,7 +426,7 @@ function Collaborators(props: any) {
           </li>
 
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Talia+-min.jpg" />
 
             <a className="list__link" href="/" target="_blank">
               <h4>Talia Smith</h4>
