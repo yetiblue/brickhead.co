@@ -12,6 +12,8 @@ function HomePage() {
       <div className="header">
         <HeaderComponent />
       </div>
+      <div className="vertical-line"></div>
+      <h2 className="recent-works">Recent Work</h2>
       <MainVideo />
       <HomeGrid />
     </div>

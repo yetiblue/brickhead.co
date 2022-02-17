@@ -10,3 +10,41 @@
   height: 5vh;
   border: 1px solid black;
 }
+@media screen and (min-width: 1024px) {
+  /* .vertical-line {
+    border-left: 1.5px solid white;
+    max-height: 18vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 80.5%;
+  }
+  .recent-works {
+    max-height: 15vh;
+    position: absolute;
+    left: 45%;
+    margin-left: -1%;
+    top: 100%;
+    color: white;
+    font-family: "disket_monoregular";
+  } */
+}
+@media screen and (min-width: 1360px) {
+  .vertical-line {
+    border-left: 1.5px solid white;
+    height: 15vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 87.5%;
+  }
+  .recent-works {
+    max-height: 15vh;
+    position: absolute;
+    left: 45%;
+    margin-left: -1%;
+    top: 105%;
+    color: white;
+    font-family: "disket_monoregular";
+  }
+}

@@ -9,13 +9,15 @@ function HomeGrid() {
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
             <p>Starr</p>
-            <h6 className="homepage-director"> Gabriel Crawford Connelly</h6>
+            <h6 className="homepage-director">
+              Gabriel Crawford Connelly + Alex Fischman Cardenas
+            </h6>
           </div>
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg" />
         </li>
         <li className="homepage-item-v2">
           <div className="homepage-item-v2-text">
-            <p>Legos</p>
+            <p>Abby T - Legos</p>
             <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
           </div>
 

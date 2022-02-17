@@ -30,8 +30,8 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/630277429?h=76d9235adc&title=0&byline=0&portrait=0",
-    director: "Giles Perkins",
-    title: "Thomtide Summer",
+    director: "Giles Perkins + Jacob Lowy",
+    title: "Thomtide - Season IV: Summer",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/summer.jpeg",
@@ -39,8 +39,8 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/557433144?h=d2322ca6b5&title=0&byline=0&portrait=0",
-    director: "Giles Perkins",
-    title: "Thomtide Spring",
+    director: "Giles Perkins + Jacob Lowy",
+    title: "thomTide - Season III: Spring",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SeasoniiSTILL.png",
@@ -49,7 +49,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src: "https://www.youtube.com/embed/dzQd-CsG-PE",
     director: "Adrian Sobrado",
-    title: "Saikoh",
+    title: "Cecilia Gault - Saikoh",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SaikohSTILL.png",
@@ -63,15 +63,15 @@ let videoList: VideoList[] = [
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/10ThingsStill2-min.jpg",
   },
-  {
-    category: "Music Video",
-    src: "https://player.vimeo.com/video/637492846?h=cd6b2d78dd&title=0&byline=0&portrait=0",
-    director: "Jack Doc Simon",
-    title: "Cece Coakley - Listerine",
-    route: "musicvideos",
-    thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ListerineSTILL.png",
-  },
+  // {
+  //   category: "Music Video",
+  //   src: "https://player.vimeo.com/video/637492846?h=cd6b2d78dd&title=0&byline=0&portrait=0",
+  //   director: "Jack Doc Simon",
+  //   title: "Cece Coakley - Listerine",
+  //   route: "musicvideos",
+  //   thumbnail:
+  //     "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ListerineSTILL.png",
+  // },
   {
     category: "Music Video",
     src: "https://player.vimeo.com/video/574252091?h=7ccbfac7fd&title=0&byline=0&portrait=0",
@@ -94,7 +94,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src: "https://www.youtube.com/embed/pcsSxjO-Pk4",
     director: "Caleb Wild",
-    title: "Montell Fish - talk 2 me",
+    title: "Montell Fish - Talk 2 me",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Talk+to+me-min.png",
     route: "musicvideos",
@@ -148,7 +148,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src: "https://player.vimeo.com/video/589635401?h=8b2e496481&title=0&byline=0&portrait=0",
     director: "Nathaniel Stevens",
-    title: "BODY BAG",
+    title: "Yellow Shoots - BODY BAG",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/BODYBAG_STILL_7_ALT-min.jpg",
@@ -171,14 +171,15 @@ let videoList: VideoList[] = [
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg",
   },
-  // {
-  //   category: "Music Video",
-  //   src: "https://player.vimeo.com/video/584009902?h=e03dcbd681&title=0&byline=0&portrait=0",
-  //   director: "Zen Pace",
-  //   title: "Dakota Jones “Lord Please”",
-  //   route: "musicvideos",
-  //   thumbnail: "",
-  // },
+  {
+    category: "Music Video",
+    src: "https://player.vimeo.com/video/584009902?h=e03dcbd681&title=0&byline=0&portrait=0",
+    director: "Zen Pace + Doug Harrison",
+    title: "Dakota Jones - Lord Please",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/DakotaJones_080521_Colored.00_02_04_16.Still009-min-2.jpg",
+  },
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/_Mxi9Jsf5Co",
@@ -223,18 +224,19 @@ let videoList: VideoList[] = [
   //   route: "branded",
   //   thumbnail: "",
   // },
-  // {
-  //   category: "Branded",
-  //   src: "https://player.vimeo.com/video/670518670?h=f13f793351&title=0&byline=0&portrait=0",
-  //   director: "James Dayton",
-  //   title: "Rise, For Bedstuy Restoration",
-  //   route: "branded",
-  //   thumbnail: "",
-  // },
+  {
+    category: "Branded",
+    src: "https://player.vimeo.com/video/670518670?h=f13f793351&title=0&byline=0&portrait=0",
+    director: "Zen Pace",
+    title: "Rise, For Bedstuy Restoration",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Restore+111521+Pass+1.00_00_44_03.Still001-min.jpg",
+  },
   {
     category: "Documentary",
     src: "https://player.vimeo.com/video/664925900?h=ec1736e4af&title=0&byline=0&portrait=0",
-    director: "Gabriel Crawford Connelly",
+    director: "Gabriel Crawford Connelly + Alex Fischman Cardenas",
     title: "Starr",
     route: "documentary",
     thumbnail:
@@ -262,7 +264,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src: "https://player.vimeo.com/video/639321337?h=04aa0e9bf6&title=0&byline=0&portrait=0",
     director: "Henry DaCosta",
-    title: "Legos",
+    title: "Abby T - Legos",
     route: "musicvideos",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg",
