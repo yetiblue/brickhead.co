@@ -25,7 +25,7 @@ function HomeGrid() {
         </li>
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
-            <p>Neptune’s Dreams</p>
+            <p>Jacob Jones The Company - Neptune’s Dreams</p>
             <h6 className="homepage-director"> Dir. Alex Fischman Cárdenas</h6>
           </div>
 

@@ -79,11 +79,26 @@
     display: flex;
     /* align-items: top; */
   }
+  .list__link h4:hover {
+    background: linear-gradient(to right, rgb(24, 240, 240), rgb(243, 11, 57));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 25vw;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .list__link p {
+    max-width: 70vw;
+  }
 }
 @media screen and (min-width: 1360px) {
   .collaborators-title {
     font-size: 1.5em;
     margin-left: -1em;
+  }
+  .list__link h4:hover {
+    max-width: 33vw;
+    /* border: 1px solid white; */
   }
   .about__image__name {
     grid-gap: 1.5em;
