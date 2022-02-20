@@ -13,7 +13,7 @@ function HomeGrid() {
               Gabriel Crawford Connelly + Alex Fischman Cardenas
             </h6>
           </div>
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Starr-min.png" />
         </li>
         <li className="homepage-item-v2">
           <div className="homepage-item-v2-text">
@@ -21,7 +21,7 @@ function HomeGrid() {
             <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Legos-min.png" />
         </li>
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
@@ -29,7 +29,7 @@ function HomeGrid() {
             <h6 className="homepage-director"> Dir. Alex Fischman Cárdenas</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/neptune_1.1.2-min.jpg" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NeptuneDream-min.png" />
         </li>
         <li className="homepage-item-v2">
           <div className="homepage-item-v2-text">
@@ -37,7 +37,7 @@ function HomeGrid() {
             <h6 className="homepage-director-jack"> Dir. Ayodeji</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Gunk-min.png" />
         </li>
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
@@ -45,7 +45,7 @@ function HomeGrid() {
             <h6 className="homepage-director"> Dir. Caleb Wild</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/MASTER+(SOUND).00_02_01_23.Still076-min.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Wings-2-min.png" />
         </li>
       </ul>
       <Link className="see-all" to="/work">

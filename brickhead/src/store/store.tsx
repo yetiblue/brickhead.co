@@ -25,7 +25,7 @@ let videoList: VideoList[] = [
     title: "Alexa Dark - Fade to Black and Blue",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/AlexaDarkSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/AlexaDark-min.png",
   },
   {
     category: "Music Video",
@@ -34,7 +34,7 @@ let videoList: VideoList[] = [
     title: "Thomtide - Season IV: Summer",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/summer.jpeg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Season4summer-min.png",
   },
   {
     category: "Music Video",
@@ -43,7 +43,7 @@ let videoList: VideoList[] = [
     title: "thomTide - Season III: Spring",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SeasoniiSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Season3Spring-min.png",
   },
   {
     category: "Music Video",
@@ -52,7 +52,7 @@ let videoList: VideoList[] = [
     title: "Cecilia Gault - Saikoh",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SaikohSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Saikoh-min.png",
   },
   {
     category: "Music Video",
@@ -61,7 +61,7 @@ let videoList: VideoList[] = [
     title: "Chloe Lilac - 10 things ",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/10ThingsStill2-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/10ThingsStill+4-min.png",
   },
   // {
   //   category: "Music Video",
@@ -79,7 +79,7 @@ let videoList: VideoList[] = [
     title: "Montell Fish - WINGS",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Graded_WINGS_FINAL_ProRes00000000.00_00_44_16.Still005-min.jpeg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Wings-2-min.png",
   },
   {
     category: "Music Video",
@@ -88,7 +88,7 @@ let videoList: VideoList[] = [
     title: "X2 MUCH DOPE - MAISON 2500",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Much+dope-min.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Maison500-min.png",
   },
   {
     category: "Music Video",
@@ -106,7 +106,7 @@ let videoList: VideoList[] = [
     title: "Porsh Bet$ - Neiman Marcus ",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/marcus.jpeg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NiemanMarcus-min.png",
   },
   {
     category: "Music Video",
@@ -115,7 +115,7 @@ let videoList: VideoList[] = [
     title: "Cold Hart - Silver Stars",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SilverStarSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/SilverStar-min.png",
   },
   {
     category: "Music Video",
@@ -124,7 +124,7 @@ let videoList: VideoList[] = [
     title: "Montell Fish - natural high",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Montel_naturalHIGH.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NaturalHigh-min.png",
   },
   {
     category: "Music Video",
@@ -133,7 +133,7 @@ let videoList: VideoList[] = [
     title: "EVIL - Wrecked",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EVILSTILL+(3).png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Wrecked-min.png",
   },
   {
     category: "Music Video",
@@ -142,7 +142,7 @@ let videoList: VideoList[] = [
     title: "Frances Forever - Paranoia Party",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/ParanoiaPartySTILLS.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/ParanoiaParty-min.png",
   },
   {
     category: "Music Video",
@@ -151,7 +151,7 @@ let videoList: VideoList[] = [
     title: "Yellow Shoots - BODY BAG",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/BODYBAG_STILL_7_ALT-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/BodyBag-min.png",
   },
   {
     category: "Music Video",
@@ -160,7 +160,7 @@ let videoList: VideoList[] = [
     title: "Porsh Bet$ - Peanut Butter",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/PorshbettsSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/PorshBets-min.png",
   },
   {
     category: "Music Video",
@@ -169,7 +169,7 @@ let videoList: VideoList[] = [
     title: "Underscores - gunk",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/File_001-min.jpeg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Gunk-min.png",
   },
   {
     category: "Music Video",
@@ -178,7 +178,7 @@ let videoList: VideoList[] = [
     title: "Dakota Jones - Lord Please",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/DakotaJones_080521_Colored.00_02_04_16.Still009-min-2.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/LordePlease-min.png",
   },
   {
     category: "Music Video",
@@ -187,7 +187,7 @@ let videoList: VideoList[] = [
     title: "ALX - Freakshow ft Nina Chuba",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FreakshowSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Freakshow-min.png",
   },
   {
     category: "Branded",
@@ -196,7 +196,7 @@ let videoList: VideoList[] = [
     title: "Love in the Dark - Jessie Reyez",
     route: "branded",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/LOVE+IN+THE+DARK+stills_1.2.5-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/LoveInTheDark-min.png",
   },
   {
     category: "Music Video",
@@ -205,7 +205,7 @@ let videoList: VideoList[] = [
     title: "Underscores -  Everybody’s Dead",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EverybodysdeadSTILL.png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Everybodysdead-min.png",
   },
   {
     category: "Branded",
@@ -214,7 +214,7 @@ let videoList: VideoList[] = [
     title: "US Mogul Ski Team Summer Training Edit",
     route: "branded",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/SKISTILL+(1).png",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Ski+Team-min.png",
   },
   // {
   //   category: "Branded",
@@ -231,7 +231,7 @@ let videoList: VideoList[] = [
     title: "Rise, For Bedstuy Restoration",
     route: "branded",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Restore+111521+Pass+1.00_00_44_03.Still001-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Rise-min.png",
   },
   {
     category: "Documentary",
@@ -240,7 +240,7 @@ let videoList: VideoList[] = [
     title: "Starr",
     route: "documentary",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/starr%2Bcolored_1.1.57-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Starr-min.png",
   },
   {
     category: "Documentary",
@@ -249,7 +249,7 @@ let videoList: VideoList[] = [
     title: "Teeth",
     route: "documentary",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Teeth+still-min.jpeg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Teeth-min.png",
   },
   {
     category: "Narrative",
@@ -258,7 +258,7 @@ let videoList: VideoList[] = [
     title: "These Games We Play",
     route: "narrative",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/tgwp_2-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/TheseGames-min.png",
   },
   {
     category: "Music Video",
@@ -267,16 +267,16 @@ let videoList: VideoList[] = [
     title: "Abby T - Legos",
     route: "musicvideos",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Legos+still+1-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Legos-min.png",
   },
   {
     category: "Branded",
     src: "https://player.vimeo.com/video/656167638?h=1fee9f7823&title=0&byline=0&portrait=0",
     director: "Alex Fischman",
-    title: "Neptune's Dreams",
+    title: "Jacob Jones The Company - Neptune's Dreams",
     route: "branded",
     thumbnail:
-      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/neptune_1.1.2-min.jpg",
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NeptuneDream-min.png",
   },
 ];
 function list(state = videoList, action: any) {
