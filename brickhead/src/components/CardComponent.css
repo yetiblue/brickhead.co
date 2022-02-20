@@ -82,7 +82,7 @@ img {
     opacity: 1;
     max-width: 35vw;
     display: flex;
-    padding-left: 1em;
+    /* padding-left: 1em; */
     justify-content: center;
   }
   .card {

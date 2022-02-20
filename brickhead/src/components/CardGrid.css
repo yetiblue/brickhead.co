@@ -24,7 +24,8 @@ li {
     margin-left: 2em;
   }
   .cardgrid-wrapper {
-    width: 80vw;
+    width: 85vw;
+    display: flex;
   }
   .justify-cardgrid {
     display: flex;

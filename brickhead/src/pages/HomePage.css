@@ -32,7 +32,7 @@
 @media screen and (min-width: 1360px) {
   .vertical-line {
     border-left: 1.5px solid white;
-    height: 15vh;
+    height: 20vh;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -43,7 +43,7 @@
     position: absolute;
     left: 45%;
     margin-left: -1%;
-    top: 105%;
+    top: 110%;
     color: white;
     font-family: "disket_monoregular";
   }
