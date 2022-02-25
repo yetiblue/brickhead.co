@@ -86,6 +86,7 @@
     max-width: 25vw;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
   }
   .list__link p {
     max-width: 70vw;

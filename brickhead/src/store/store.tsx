@@ -164,6 +164,15 @@ let videoList: VideoList[] = [
   },
   {
     category: "Music Video",
+    src: "hhttps://www.youtube.com/embed/U_vnUffBU1U",
+    director: "Ragan Henderson",
+    title: "Chloe Lilac - Sick ",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/sick-min.jpg",
+  },
+  {
+    category: "Music Video",
     src: "https://player.vimeo.com/video/642717618?h=0e3c4c9d7d&title=0&byline=0&portrait=0",
     director: "ayodeji",
     title: "Underscores - gunk",
@@ -216,14 +225,15 @@ let videoList: VideoList[] = [
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Ski+Team-min.png",
   },
-  // {
-  //   category: "Branded",
-  //   src: "https://player.vimeo.com/video/670940741?h=d9a325566e&title=0&byline=0&portrait=0",
-  //   director: "Zen Pace",
-  //   title: "Americares",
-  //   route: "branded",
-  //   thumbnail: "",
-  // },
+  {
+    category: "Branded",
+    src: "https://player.vimeo.com/video/670940741?h=d9a325566e&title=0&byline=0&portrait=0",
+    director: "Zen Pace",
+    title: "Americares",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/americares-min.JPG",
+  },
   {
     category: "Branded",
     src: "https://player.vimeo.com/video/670518670?h=f13f793351&title=0&byline=0&portrait=0",

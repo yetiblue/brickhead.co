@@ -9,7 +9,8 @@
 .information {
   max-width: 98%;
   padding: 0.2em;
-  margin-left: 2em;
+  /* margin-left: 2em; */
+  /* border: 1px solid white; */
 }
 .information__brand {
   font-size: 5vw;
@@ -63,6 +64,9 @@ p {
 
     /* font-size: 1.5vw; */
   }
+  .information {
+    margin-left: 2em;
+  }
   .information__director {
     font-size: 0.8vw;
   }
@@ -102,7 +106,7 @@ p {
     width: 100%;
     position: relative;
     padding-left: -1em;
-    margin-top: -4em;
+    margin-top: -3em;
 
     /* left: -4em; */
   }
