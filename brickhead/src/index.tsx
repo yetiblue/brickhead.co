@@ -4,7 +4,7 @@ import "./index.css";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import WorkPage from "./pages/WorkPage";
-import PhotoPage from "./components/PhotoGridComponent";
+import PhotoPage from "./pages/PhotoPage";
 import CollaboratorsPage from "./pages/CollaboratorsPage";
 import reportWebVitals from "./reportWebVitals";
 import "./disketfont/stylesheet.css";
