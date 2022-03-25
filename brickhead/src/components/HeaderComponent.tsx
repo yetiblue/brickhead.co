@@ -112,8 +112,8 @@ class HeaderComponent extends React.Component<any, any> {
             </li>
             <li className="header-wrapper__li">
               {" "}
-              <Link className="link" to="/work">
-                PHOTO
+              <Link className="link" to="/photos">
+                PHOTOS
               </Link>
             </li>
             <li className="header-wrapper__li">

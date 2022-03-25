@@ -1,34 +1,75 @@
 import PhotoGridComponent from "../components/PhotoGridComponent";
 import React from "react";
+import HeaderComponent from "../components/HeaderComponent";
 class PhotoPage extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
     interface PhotoArray {
       projectName: string;
       creator: string;
-      photos: Array<string>;
+      photos: Array<object>;
     }
     let photoProjects: PhotoArray[] = [
       {
         projectName: "Chris Rock",
-        creator: "timmy",
+        creator: "Ragan Henderson",
         photos: [
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/29910001-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0001-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0135-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0866-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0179-min.jpg",
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/29910001-min.jpg",
+            id: 0,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0001-min.jpg",
+            id: 1,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0135-min.jpg",
+            id: 2,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0866-min.jpg",
+            id: 3,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_ChrisRock_TourPoster_0179-min.jpg",
+            id: 4,
+          },
         ],
       },
       {
         projectName: "Remy Wolf Crocs",
-        creator: "idk",
+        creator: "Ragan Henderson",
         photos: [
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_FUZZY-46-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_FUZZY-64-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_MARBLE-51-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_MARBLE-6-min.jpg",
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_TIEDYE-18-min.jpg",
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_FUZZY-46-min.jpg",
+            id: 0,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_FUZZY-64-min.jpg",
+            id: 1,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_MARBLE-51-min.jpg",
+            id: 2,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_MARBLE-6-min.jpg",
+            id: 3,
+          },
+          {
+            src:
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/RH_REMIWOLF_CROCS_TIEDYE-18-min.jpg",
+            id: 4,
+          },
         ],
       },
     ];
@@ -51,7 +92,14 @@ class PhotoPage extends React.Component<any, any> {
     ));
     let projectList = <ul>{mappedProjects}</ul>;
 
-    return <div>{projectList}</div>;
+    return (
+      <div>
+        <HeaderComponent />
+        <h2 className="collaborators-title">PHOTOS</h2>
+
+        {projectList}
+      </div>
+    );
   }
 }
 export default PhotoPage;
