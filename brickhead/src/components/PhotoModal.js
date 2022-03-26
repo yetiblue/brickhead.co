@@ -9,6 +9,7 @@ class PhotoModal extends React.Component {
     this.state = {
       currentCount: 0,
     };
+
     this.previous = this.previous.bind(this);
     this.next = this.next.bind(this);
     this.closeModal = this.closeModal.bind(this);
@@ -17,6 +18,7 @@ class PhotoModal extends React.Component {
   componentDidMount() {
     this.setState({ currentCount: this.props.targetID }); //targetID is the ID of the image clicked in the gallery
     document.addEventListener("keydown", this.keyNav, false);
+    // window.scrollTo(0, 0);
   }
   componentWillUnmount() {
     document.removeEventListener("keydown", this.keyNav, "false");
@@ -28,6 +30,7 @@ class PhotoModal extends React.Component {
       this.next();
     }
   }
+
   previous() {
     console.log("called previous", this.state.currentCount);
     if (this.state.currentCount > 0) {

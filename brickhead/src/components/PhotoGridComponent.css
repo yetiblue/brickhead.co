@@ -41,6 +41,9 @@
   height: auto;
   margin-right: 1.5em;
 }
+.photo-project-wrapper__scroll__image:hover {
+  cursor: pointer;
+}
 @media screen and (min-width: 768px) {
   .photo-project-wrapper {
     height: 35vh;

@@ -18,6 +18,105 @@ function Collaborators(props: any) {
             Contact Us
           </a>
         </div>
+        <div className="accolades">
+          <ul className="accolades-wrapper">
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png"
+              />
+            </li>
+
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.png"
+              />
+            </li>
+
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-1.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-3.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-4.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/DL-LOGOwhite.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/EARMILkWHITE.png"
+              />
+            </li>
+
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/ERLogo-WithSizingREMOVEDACKGROUNDINVERT.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/f2efbc3bb9f2c8e641808b30a1c45d8c.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/FADER-logoWHITE.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Island_Records_logo.svg_WHITE.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/kodak-logo-work-order-01.jpg"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Logo-Rolling-Stone.png"
+              />
+            </li>
+
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/MTV.png"
+              />
+            </li>
+
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
+              />
+            </li>
+          </ul>
+        </div>
         <hr></hr>
         <h2 className="about__executives__h2">TEAM</h2>
 
@@ -46,15 +145,8 @@ function Collaborators(props: any) {
       </div>
       <div className="collaborators-wrapper"></div>
       <hr></hr>
-
       <div className="accolades">
         <ul className="accolades-wrapper">
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png"
-            />
-          </li>
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
@@ -85,114 +177,42 @@ function Collaborators(props: any) {
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/ALAMOLOGO%2Bcopy.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/capitol-records-logo-full_WHITE.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-1.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-3.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-4.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/DL-LOGOwhite.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/EARMILkWHITE.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Epitaph_Records_Logo.svg_WHITE.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/ERLogo-WithSizingREMOVEDACKGROUNDINVERT.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/f2efbc3bb9f2c8e641808b30a1c45d8c.png"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/FADER-logoWHITE.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Island_Records_logo.svg_WHITE.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/kodak-logo-work-order-01.jpg"
-            />
-          </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Logo-Rolling-Stone.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Mom_%2B_Pop_logo_WHITE.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/MTV.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Republic_records_logo.svg_WHITE.png"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"

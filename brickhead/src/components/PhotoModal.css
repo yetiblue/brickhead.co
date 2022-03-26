@@ -1,10 +1,14 @@
 .photo-project-modal {
-  background-color: black;
+  /* background-color: black; */
+  backdrop-filter: brightness(60%) blur(14px);
+
+  /* backdrop-filter: ; */
+
   height: 110vh;
   width: 100vw;
   top: 0;
   z-index: 1000;
-  position: absolute;
+  position: fixed;
 }
 .modal-exit {
   color: white;
