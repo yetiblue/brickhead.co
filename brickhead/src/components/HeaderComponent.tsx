@@ -132,13 +132,9 @@ class HeaderComponent extends React.Component<any, any> {
 
             <li className="header-wrapper__li">
               {" "}
-              <a
-                href="https://www.lightrange.productions/"
-                className="link"
-                target="_blank"
-              >
+              <Link className="link" to="/vfx">
                 VFX
-              </a>
+              </Link>
             </li>
 
             <li className="header-wrapper__li"></li>
