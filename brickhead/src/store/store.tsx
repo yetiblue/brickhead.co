@@ -322,6 +322,36 @@ let videoList: VideoList[] = [
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NeptuneDream-min.png",
   },
+  {
+    category: "Music Video",
+    src:
+      "https://player.vimeo.com/video/678492705?h=251e760dc9&title=0&byline=0&portrait=0",
+    director: "Dir. Gabriel Connelly",
+    title: "Swimming For Shore",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/SWIMMING+FOR+SHORE_1.93.21-min.jpg",
+  },
+  {
+    category: "Music Video",
+    src:
+      "http://dzkagq791g2eh.cloudfront.net/Brickhead-stills-2/NOTTODAY_3_11_FINAL_H264.mp4",
+    director: "Dir. Sophie Hur",
+    title: "The BLSSM - NOT TODAY",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/THUMBNAILSTILL-min.jpeg",
+  },
+  {
+    category: "Music Video",
+    src:
+      "https://player.vimeo.com/video/688974591?h=62cbee3fa9&title=0&byline=0&portrait=0",
+    director: "Dir. Matthew O’Connor",
+    title: "Wasted",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Screen+Shot+2022-03-30+at+11.36.13+AM-min.png",
+  },
 ];
 function list(state = videoList, action: any) {
   switch (action.type) {

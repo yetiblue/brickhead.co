@@ -11,7 +11,7 @@ class PhotoPage extends React.Component<any, any> {
     }
     let photoProjects: PhotoArray[] = [
       {
-        projectName: "Chris Rock x Tour",
+        projectName: "Chris Rock x Ego Death Tour",
         creator: "Ragan Henderson",
         photos: [
           {

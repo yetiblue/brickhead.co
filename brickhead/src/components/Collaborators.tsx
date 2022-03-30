@@ -34,13 +34,13 @@ function Collaborators(props: any) {
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-1.png"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Nowness_Logo.png"
               />
             </li>
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/download-3.png"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/130115-logo-yda-facebook-vignette+(1)+EDIT-min.png"
               />
             </li>
             <li className="accolades-wrapper__li">
@@ -102,13 +102,6 @@ function Collaborators(props: any) {
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/MTV.png"
-              />
-            </li>
-
-            <li className="accolades-wrapper__li">
-              <img
-                className="accolades__wrapper__img"
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
               />
             </li>
@@ -116,6 +109,18 @@ function Collaborators(props: any) {
               <img
                 className="accolades__wrapper__img"
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/NFFTY2022_Laurel.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Pigeons%26Planes_Logo.png"
               />
             </li>
           </ul>
@@ -131,9 +136,8 @@ function Collaborators(props: any) {
               <p className="about__executives__li__name">Adrian Sobrado</p>
             </li>
             <li className="about__executives__li">
-              <p className="about__executives__li__p">In-House Producers:</p>
-              <p className="about__executives__li__name">Harrison Allen</p>
-              <p className="about__executives__li__name">Nora Zubizarreta</p>
+              <p className="about__executives__li__p">Head Of Production:</p>
+              <p className="about__executives__li__name">Francesco Raffo</p>
             </li>
             <li className="about__executives__li">
               <p className="about__executives__li__p">VFX:</p>
@@ -144,9 +148,11 @@ function Collaborators(props: any) {
         <div className="executives-justify">
           <ul className="about__executives">
             <li className="about__executives__li">
-              <p className="about__executives__li__p">Head Of Production:</p>
-              <p className="about__executives__li__name">Francesco Raffo</p>
+              <p className="about__executives__li__p">In-House Producers:</p>
+              <p className="about__executives__li__name">Harrison Allen</p>
+              <p className="about__executives__li__name">Nora Zubizarreta</p>
             </li>
+
             <li className="about__executives__li">
               <p className="about__executives__li__p">Business Operations:</p>
               <p className="about__executives__li__name">Dion White</p>
@@ -226,6 +232,36 @@ function Collaborators(props: any) {
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/vm-logo.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Complex_LogoWhite.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/FrankWhite_Logo.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/RCA_Logo.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/AWAL_LogoWhite.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EXTRA_MTV_White.png"
             />
           </li>
         </ul>

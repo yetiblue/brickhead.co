@@ -49,6 +49,7 @@ p {
     /* margin-top: -5em; */
     display: flex;
     width: 75%;
+    margin-left: -1em;
     justify-content: center;
     /* border: 1px solid white; */
   }
@@ -97,7 +98,6 @@ p {
     /* margin-left: -1em; */
   }
   .information {
-    margin-top: -2em;
     padding: 1em;
     padding-top: 4em;
 
@@ -121,8 +121,7 @@ p {
     position: relative;
     margin-left: -0.5em;
     padding-left: -1em;
-    margin-top: -3em;
-
+    /* margin-top: -3em; */
     /* left: -4em; */
   }
   .information-wrapper {
