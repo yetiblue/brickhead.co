@@ -14,9 +14,6 @@ function Collaborators(props: any) {
             one-stop shop for brands and artists.
             <br></br>
           </p>
-          <a className="mailto" href="mailto:bre@brickhead.co">
-            Contact Us
-          </a>
         </div>
         <div className="accolades">
           <ul className="accolades-wrapper">
@@ -115,6 +112,12 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
               />
             </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
+              />
+            </li>
           </ul>
         </div>
         <hr></hr>
@@ -136,6 +139,14 @@ function Collaborators(props: any) {
               <p className="about__executives__li__p">VFX:</p>
               <p className="about__executives__li__name">Joachim Pfefferkorn</p>
             </li>
+          </ul>
+        </div>
+        <div className="executives-justify">
+          <ul className="about__executives">
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Head Of Production:</p>
+              <p className="about__executives__li__name">Francesco Raffo</p>
+            </li>
             <li className="about__executives__li">
               <p className="about__executives__li__p">Business Operations:</p>
               <p className="about__executives__li__name">Dion White</p>
@@ -145,6 +156,9 @@ function Collaborators(props: any) {
       </div>
       <div className="collaborators-wrapper"></div>
       <hr></hr>
+      <div className="client-label">
+        <h2 className="about-about">Clients</h2>
+      </div>
       <div className="accolades">
         <ul className="accolades-wrapper">
           <li className="accolades-wrapper__li">
@@ -165,12 +179,7 @@ function Collaborators(props: any) {
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/443-4439809_us-ski-and-snowboard-logo-clipart.jpg"
             />
           </li>
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/88-887749_amazon-music-logo-png-clip-art-library-stock.jpg"
-            />
-          </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
@@ -213,12 +222,6 @@ function Collaborators(props: any) {
             />
           </li>
 
-          <li className="accolades-wrapper__li">
-            <img
-              className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
-            />
-          </li>
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"

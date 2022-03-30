@@ -80,7 +80,7 @@ class VFXComponent extends React.Component<any, any> {
           <CardComponent
             cardCategory={card.category}
             cardTitle={card.projectName}
-            cardDirector={card.creator}
+            // cardDirector={card.creator}
             cardSource={card.video}
             cardThumbnail={card.thumbnail}
           />
@@ -90,10 +90,18 @@ class VFXComponent extends React.Component<any, any> {
     let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
 
     return (
-      <div className="justify-cardgrid">
-        <div className="cardgrid-wrapper">
-          {gridContent}
-          {/* <Footer /> */}
+      <div>
+        <div className="description-justify">
+          <p className="about__description__p">
+            All VFX work by Light Range, Brickhead’s in-house VFX team
+            <br></br>
+          </p>
+        </div>
+        <div className="justify-cardgrid">
+          <div className="cardgrid-wrapper">
+            {gridContent}
+            {/* <Footer /> */}
+          </div>
         </div>
       </div>
     );

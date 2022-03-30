@@ -11,12 +11,12 @@ class PhotoPage extends React.Component<any, any> {
     }
     let photoProjects: PhotoArray[] = [
       {
-        projectName: "Chris Rock",
+        projectName: "Chris Rock x Tour",
         creator: "Ragan Henderson",
         photos: [
           {
             src:
-              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Photo+Projects/29910001-min.jpg",
+              "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/RH_ChrisRock_TourPoster_0244-min.jpg",
             id: 0,
           },
           {
@@ -42,7 +42,7 @@ class PhotoPage extends React.Component<any, any> {
         ],
       },
       {
-        projectName: "Remy Wolf Crocs",
+        projectName: "Remi Wolf  x Crocs",
         creator: "Ragan Henderson",
         photos: [
           {

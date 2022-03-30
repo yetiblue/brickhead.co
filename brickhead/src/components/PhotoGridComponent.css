@@ -39,7 +39,7 @@
 .photo-project-wrapper__scroll__image {
   max-width: 40%;
   height: auto;
-  margin-right: 1.5em;
+  margin-right: 2.5em;
 }
 .photo-project-wrapper__scroll__image:hover {
   cursor: pointer;
@@ -50,6 +50,7 @@
   }
   .photo-project-wrapper__scroll__image {
     max-width: 35%;
+    margin-right: 2.5em;
   }
   .info-wrapper__shot-by {
     font-size: 1em;
@@ -67,17 +68,22 @@
   }
   .photo-project-wrapper__scroll__image {
     max-width: 25%;
+    margin-right: 8.5em;
+
+    height: auto;
+    border: 1px solid yellow;
   }
 }
 @media screen and (min-width: 1368px) {
   .photo-project-wrapper {
-    height: 47vh;
+    height: 67vh;
   }
   .info-wrapper__project-name {
     font-size: 1.7em;
   }
   .photo-project-wrapper__scroll__image {
-    max-width: 12%;
+    width: auto;
+    height: 40vh;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }

@@ -8,11 +8,11 @@ interface VideoList {
   thumbnail: string;
   route: string;
 }
-interface PhotoList {
-  name: string;
-  creator: string;
-  thumbnail: Array<string>;
-}
+// interface PhotoList {
+//   name: string;
+//   creator: string;
+//   thumbnail: Array<string>;
+// }
 // let photoList: PhotoList[] = [
 //   {
 //     name: "first one",
@@ -34,7 +34,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/561861537?h=cc6bed8ee6&title=0&byline=0&portrait=0",
-    director: "Giles Perkins",
+    director: "Dir. Giles Perkins",
     title: "Alexa Dark - Fade to Black and Blue",
     route: "musicvideos",
     thumbnail:
@@ -44,7 +44,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/630277429?h=76d9235adc&title=0&byline=0&portrait=0",
-    director: "Giles Perkins + Jacob Lowy",
+    director: "Dir. Giles Perkins + Jacob Lowy",
     title: "Thomtide - Season IV: Summer",
     route: "musicvideos",
     thumbnail:
@@ -54,7 +54,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/557433144?h=d2322ca6b5&title=0&byline=0&portrait=0",
-    director: "Giles Perkins + Jacob Lowy",
+    director: "Dir. Giles Perkins + Jacob Lowy",
     title: "thomTide - Season III: Spring",
     route: "musicvideos",
     thumbnail:
@@ -63,7 +63,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/dzQd-CsG-PE",
-    director: "Adrian Sobrado",
+    director: "Dir. Adrian Sobrado",
     title: "Cecilia Gault - Saikoh",
     route: "musicvideos",
     thumbnail:
@@ -72,7 +72,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/OrNu31ENaKU",
-    director: "Ragan Henderson",
+    director: "Dir. Ragan Henderson",
     title: "Chloe Lilac - 10 things ",
     route: "musicvideos",
     thumbnail:
@@ -91,7 +91,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/574252091?h=7ccbfac7fd&title=0&byline=0&portrait=0",
-    director: "Caleb Wild",
+    director: "Dir. Caleb Wild",
     title: "Montell Fish - WINGS",
     route: "musicvideos",
     thumbnail:
@@ -101,7 +101,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/558695632?h=e501c4a5fa&title=0&byline=0&portrait=0",
-    director: "Nick Freeman",
+    director: "Dir. Nick Freeman",
     title: "X2 MUCH DOPE - MAISON 2500",
     route: "musicvideos",
     thumbnail:
@@ -110,7 +110,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/pcsSxjO-Pk4",
-    director: "Caleb Wild",
+    director: "Dir. Caleb Wild",
     title: "Montell Fish - Talk 2 me",
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Talk+to+me-min.png",
@@ -120,7 +120,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/620023024?h=f352a6a785&title=0&byline=0&portrait=0",
-    director: "Jack Doc Simon",
+    director: "Dir. Jack Doc Simon",
     title: "Porsh Bet$ - Neiman Marcus ",
     route: "musicvideos",
     thumbnail:
@@ -129,7 +129,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/JvF-XYCxXPo",
-    director: "Aaron Feinchell and Dante Napoli",
+    director: "Dir. Aaron Feinchell and Dante Napoli",
     title: "Cold Hart - Silver Stars",
     route: "musicvideos",
     thumbnail:
@@ -138,7 +138,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/gtWgWhBvEL8",
-    director: "Caleb Wild",
+    director: "Dir. Caleb Wild",
     title: "Montell Fish - natural high",
     route: "musicvideos",
     thumbnail:
@@ -148,7 +148,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/578216069?h=005636ca71&title=0&byline=0&portrait=0",
-    director: "Jack Doc Simon",
+    director: "Dir. Jack Doc Simon",
     title: "EVIL - Wrecked",
     route: "musicvideos",
     thumbnail:
@@ -158,7 +158,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/568839479?h=d456ae11a5&title=0&byline=0&portrait=0",
-    director: "Christina Xing",
+    director: "Dir. Christina Xing",
     title: "Frances Forever - Paranoia Party",
     route: "musicvideos",
     thumbnail:
@@ -168,7 +168,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/589635401?h=8b2e496481&title=0&byline=0&portrait=0",
-    director: "Nathaniel Stevens",
+    director: "Dir. Nathaniel Stevens",
     title: "Yellow Shoots - BODY BAG",
     route: "musicvideos",
     thumbnail:
@@ -178,7 +178,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/586536109?h=a3139abab3&title=0&byline=0&portrait=0",
-    director: "Jack Doc Simon",
+    director: "Dir. Jack Doc Simon",
     title: "Porsh Bet$ - Peanut Butter",
     route: "musicvideos",
     thumbnail:
@@ -187,7 +187,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "hhttps://www.youtube.com/embed/U_vnUffBU1U",
-    director: "Ragan Henderson",
+    director: "Dir. Ragan Henderson",
     title: "Chloe Lilac - Sick ",
     route: "musicvideos",
     thumbnail:
@@ -197,7 +197,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/642717618?h=0e3c4c9d7d&title=0&byline=0&portrait=0",
-    director: "ayodeji",
+    director: "Dir. ayodeji",
     title: "Underscores - gunk",
     route: "musicvideos",
     thumbnail:
@@ -207,7 +207,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/584009902?h=e03dcbd681&title=0&byline=0&portrait=0",
-    director: "Zen Pace + Doug Harrison",
+    director: "Dir. Zen Pace + Doug Harrison",
     title: "Dakota Jones - Lord Please",
     route: "musicvideos",
     thumbnail:
@@ -216,7 +216,7 @@ let videoList: VideoList[] = [
   {
     category: "Music Video",
     src: "https://www.youtube.com/embed/_Mxi9Jsf5Co",
-    director: "Ragan Henderson",
+    director: "Dir. Ragan Henderson",
     title: "ALX - Freakshow ft Nina Chuba",
     route: "musicvideos",
     thumbnail:
@@ -226,7 +226,7 @@ let videoList: VideoList[] = [
     category: "Branded",
     src:
       "https://player.vimeo.com/video/435362122?h=96ab3a67c8&title=0&byline=0&portrait=0",
-    director: "Nick Freeman",
+    director: "Dir. Nick Freeman",
     title: "Love in the Dark - Jessie Reyez",
     route: "branded",
     thumbnail:
@@ -236,7 +236,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/670166440?h=7fe2d67bad&title=0&byline=0&portrait=0",
-    director: "Andrew Stern",
+    director: "Dir. Andrew Stern",
     title: "Underscores -  Everybody’s Dead",
     route: "musicvideos",
     thumbnail:
@@ -246,7 +246,7 @@ let videoList: VideoList[] = [
     category: "Branded",
     src:
       "https://player.vimeo.com/video/595472127?h=3090842b6d&title=0&byline=0&portrait=0",
-    director: "Jack Doc Simon",
+    director: "Dir. Jack Doc Simon",
     title: "US Mogul Ski Team Summer Training Edit",
     route: "branded",
     thumbnail:
@@ -256,7 +256,7 @@ let videoList: VideoList[] = [
     category: "Branded",
     src:
       "https://player.vimeo.com/video/670940741?h=d9a325566e&title=0&byline=0&portrait=0",
-    director: "Zen Pace",
+    director: "Dir. Zen Pace",
     title: "Americares",
     route: "branded",
     thumbnail:
@@ -266,7 +266,7 @@ let videoList: VideoList[] = [
     category: "Branded",
     src:
       "https://player.vimeo.com/video/670518670?h=f13f793351&title=0&byline=0&portrait=0",
-    director: "Zen Pace",
+    director: "Dir. Zen Pace",
     title: "Rise, For Bedstuy Restoration",
     route: "branded",
     thumbnail:
@@ -276,7 +276,7 @@ let videoList: VideoList[] = [
     category: "Documentary",
     src:
       "https://player.vimeo.com/video/664925900?h=ec1736e4af&title=0&byline=0&portrait=0",
-    director: "Gabriel Crawford Connelly + Alex Fischman Cardenas",
+    director: "Dir. Gabriel Crawford Connelly + Alex Fischman Cardenas",
     title: "Starr",
     route: "documentary",
     thumbnail:
@@ -286,7 +286,7 @@ let videoList: VideoList[] = [
     category: "Documentary",
     src:
       "https://player.vimeo.com/video/542652790?h=b14e813f5e&title=0&byline=0&portrait=0",
-    director: "Alex Fischman Cárdenas",
+    director: "Dir. Alex Fischman Cárdenas",
     title: "Teeth",
     route: "documentary",
     thumbnail:
@@ -296,7 +296,7 @@ let videoList: VideoList[] = [
     category: "Narrative",
     src:
       "https://player.vimeo.com/video/609925864?h=ba9b0a452e&title=0&byline=0&portrait=0",
-    director: "Mike Klubeck",
+    director: "Dir. Mike Klubeck",
     title: "These Games We Play",
     route: "narrative",
     thumbnail:
@@ -306,7 +306,7 @@ let videoList: VideoList[] = [
     category: "Music Video",
     src:
       "https://player.vimeo.com/video/639321337?h=04aa0e9bf6&title=0&byline=0&portrait=0",
-    director: "Henry DaCosta",
+    director: "Dir. Henry DaCosta",
     title: "Abby T - Legos",
     route: "musicvideos",
     thumbnail:
@@ -316,7 +316,7 @@ let videoList: VideoList[] = [
     category: "Branded",
     src:
       "https://player.vimeo.com/video/656167638?h=1fee9f7823&title=0&byline=0&portrait=0",
-    director: "Alex Fischman",
+    director: "Dir. Alex Fischman",
     title: "Jacob Jones The Company - Neptune's Dreams",
     route: "branded",
     thumbnail:
