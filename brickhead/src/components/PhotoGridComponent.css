@@ -39,7 +39,7 @@
 .photo-project-wrapper__scroll__image {
   /* max-width: 40%;
   height: auto; */
-  width: 25vw;
+  max-width: 40vw;
 
   margin-right: 2.5em;
 }
@@ -53,7 +53,7 @@
   .photo-project-wrapper__scroll__image {
     /* width: auto;
     height: 40vh; */
-    width: 17vw;
+    max-width: 17vw;
 
     align-items: flex-start;
     display: flex;
@@ -77,7 +77,7 @@
   .photo-project-wrapper__scroll__image {
     /* max-width: 25%; */
     height: 50vh;
-    width: 20vw;
+    max-width: auto;
     margin-right: 8.5em;
 
     height: auto;

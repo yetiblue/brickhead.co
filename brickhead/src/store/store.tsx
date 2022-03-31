@@ -352,6 +352,24 @@ let videoList: VideoList[] = [
     thumbnail:
       "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Screen+Shot+2022-03-30+at+11.36.13+AM-min.png",
   },
+  {
+    category: "Music Video",
+    src: "https://www.youtube.com/embed/kno9vtBH1EI",
+    director: "Dir. Xiwen Miao",
+    title: "Patrick Williams - Audrey Hepburn",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Audrey+5-min.PNG",
+  },
+  {
+    category: "Music Video",
+    src: "https://www.youtube.com/embed/hZ1g_RTNSoA",
+    director: "Dir. Xiwen Miao",
+    title: "Dafna - The Man In My Dreams",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/The+Man+in+My+Dreams+3-min.PNG",
+  },
 ];
 function list(state = videoList, action: any) {
   switch (action.type) {

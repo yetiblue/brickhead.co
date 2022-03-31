@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} http://brickhead.co [NC]
+
+RewriteRule ^(.*)$ http://www.brickhead.co/$1 [L,R=301]

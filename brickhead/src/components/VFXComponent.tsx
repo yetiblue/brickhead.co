@@ -44,7 +44,7 @@ class VFXComponent extends React.Component<any, any> {
         projectName: "Syd - Fast Car",
         creator: "Ragan Henderson",
         thumbnail:
-          "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Screen+Shot+2022-03-27+at+12.01.57+PM-min.png",
+          "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Screen+Shot+2022-03-31+at+6.50.11+PM-min.png",
         id: 3,
         video:
           "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/syd__fastcar+(1080p).mp4",
@@ -66,6 +66,15 @@ class VFXComponent extends React.Component<any, any> {
         id: 5,
         video:
           "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/whisper+(1080p).mp4",
+      },
+      {
+        projectName: "Tate Macrae x Tusk Creative",
+        creator: "Chaotic",
+        thumbnail:
+          "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/chaotic+thumbnail3.jpg",
+        id: 5,
+        video:
+          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/TateMcRae_WingFire_Final_9x16.mp4",
       },
     ];
     this.state = {

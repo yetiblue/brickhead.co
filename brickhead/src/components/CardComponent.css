@@ -71,7 +71,7 @@ img {
   }
   .card__category {
     margin-left: -2em;
-    z-index: 1000000;
+    z-index: 100;
     width: 35%;
   }
   .card__thumbnail img {

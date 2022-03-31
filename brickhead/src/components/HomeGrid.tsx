@@ -49,7 +49,7 @@ function HomeGrid() {
         </li>
       </ul>
       <Link className="see-all" to="/work">
-        <p className="see-all">See All Work</p>
+        <p className="see-all">See Select Work</p>
       </Link>
     </div>
   );

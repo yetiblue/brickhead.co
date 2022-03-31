@@ -27,7 +27,19 @@ function Collaborators(props: any) {
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.png"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/NFFTY2022_Laurel.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/FilmShortage_Logo.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
               />
             </li>
 
@@ -80,12 +92,7 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/FADER-logoWHITE.png"
               />
             </li>
-            <li className="accolades-wrapper__li">
-              <img
-                className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Island_Records_logo.svg_WHITE.png"
-              />
-            </li>
+
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -105,22 +112,17 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
               />
             </li>
-            <li className="accolades-wrapper__li">
-              <img
-                className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
-              />
-            </li>
-            <li className="accolades-wrapper__li">
-              <img
-                className="accolades__wrapper__img"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/NFFTY2022_Laurel.png"
-              />
-            </li>
+
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Pigeons%26Planes_Logo.png"
+              />
+            </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.png"
               />
             </li>
           </ul>
@@ -262,6 +264,12 @@ function Collaborators(props: any) {
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EXTRA_MTV_White.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/BMG_Logo.png"
             />
           </li>
         </ul>
