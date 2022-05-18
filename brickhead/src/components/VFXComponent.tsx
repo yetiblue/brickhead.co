@@ -20,7 +20,7 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/AT%26T+Morning+Commute-min.png",
         id: 0,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/at%26t__morning_commute+(720p).mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/at%26t__morning_commute+(720p).mp4",
       },
       {
         projectName: "IKEA - Trust Your Seller",
@@ -29,7 +29,7 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/IKEA+Trust+Your+Seller-min.png",
         id: 1,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/ikea___'trust_your_seller'.mp4+(1440p).mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/ikea___'trust_your_seller'.mp4+(1440p).mp4",
       },
       {
         projectName: "Oathaus",
@@ -38,7 +38,7 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Screen+Shot+2022-03-28+at+8.37.58+PM.png",
         id: 2,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/oathaus+(1080p).mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/oathaus+(1080p).mp4",
       },
       {
         projectName: "Syd - Fast Car",
@@ -47,7 +47,7 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Screen+Shot+2022-03-31+at+6.50.11+PM-min.png",
         id: 3,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/syd__fastcar+(1080p).mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/syd__fastcar+(1080p).mp4",
       },
       {
         projectName: "Under Armor - Genesis Curry Flow",
@@ -56,7 +56,7 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Under+Armour+-+Genesis+Curry+Flow-min.png",
         id: 4,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/under-armour-genesis-curry-download-1080p.mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/under-armour-genesis-curry-download-1080p.mp4",
       },
       {
         projectName: "Whisper",
@@ -65,16 +65,16 @@ class VFXComponent extends React.Component<any, any> {
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/VFX+VIdeos/Whisper-min.png",
         id: 5,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/whisper+(1080p).mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/whisper+(1080p).mp4",
       },
       {
-        projectName: "Tate Macrae x Tusk Creative",
+        projectName: "Chaotic - Tate Macrae",
         creator: "Chaotic",
         thumbnail:
           "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/chaotic+thumbnail3.jpg",
         id: 5,
         video:
-          "http://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/TateMcRae_WingFire_Final_9x16.mp4",
+          "https://dzkagq791g2eh.cloudfront.net/VFX+VIdeos/TateMcRae_WingFire_Final_9x16.mp4",
       },
     ];
     this.state = {

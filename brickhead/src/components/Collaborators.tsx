@@ -184,7 +184,7 @@ function Collaborators(props: any) {
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/443-4439809_us-ski-and-snowboard-logo-clipart.jpg"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/US+Ski+Team.png"
             />
           </li>
 
@@ -266,10 +266,23 @@ function Collaborators(props: any) {
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/EXTRA_MTV_White.png"
             />
           </li>
+
           <li className="accolades-wrapper__li">
             <img
               className="accolades__wrapper__img"
-              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/BMG_Logo.png"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/BMG+Logo.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/LexusLogo.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Alternative_Press_logo+copy.png"
             />
           </li>
         </ul>
