@@ -56,11 +56,15 @@ h4 {
   justify-content: space-around;
 }
 .about__description__p {
-  text-align: left;
-  width: 90vw;
+  text-align: center;
+  /* margin-left: -2em; */
+  width: 100%;
+  padding-left: 1 em;
   margin-bottom: 1em;
   font-weight: bold;
   font-family: "b612_monoregular";
+  display: flex;
+  justify-content: center;
 }
 .about__executives__li {
   margin-bottom: 2em;
@@ -92,13 +96,18 @@ hr {
   display: flex;
   justify-content: center;
 }
+.client-label {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
 @media screen and (min-width: 768px) {
   .about__collaborators {
     max-width: 60vw;
   }
   .mailto {
     padding: 0.5em;
-    border: 1px solid white;
     margin-bottom: 1em;
     margin-top: 1em;
     margin-left: 0;
@@ -139,6 +148,9 @@ hr {
 }
 
 @media screen and (min-width: 1360px) {
+  .client-label {
+    margin-top: 3em;
+  }
   .accolades-wrapper__li {
     /* width: 20vw; */
     margin-top: 6em;

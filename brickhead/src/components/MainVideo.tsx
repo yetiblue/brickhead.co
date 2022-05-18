@@ -5,7 +5,7 @@ function MainVideo() {
     <div>
       <video className="reel-main" autoPlay muted loop>
         <source
-          src="http://dzkagq791g2eh.cloudfront.net/Brickhead-stills/3092950152.mp4"
+          src="http://dzkagq791g2eh.cloudfront.net/Brickhead-stills/3174466491.mp4"
           type="video/mp4"
         />
       </video>

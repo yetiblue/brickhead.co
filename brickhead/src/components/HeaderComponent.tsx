@@ -75,12 +75,20 @@ class HeaderComponent extends React.Component<any, any> {
             src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/BH-logo-V4-reverse-min.png"
           />
         </Link>
-        <a href="https://www.instagram.com/brickhead.co/" target="_blank">
-          <img
-            className="header-wrapper__IG"
-            src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
-          />
-        </a>
+        <div>
+          <a href="mailto:bre@brickhead.co" target="_blank">
+            <img
+              className="header-wrapper__IG__two"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/mail.png"
+            />
+          </a>
+          <a href="https://www.instagram.com/brickhead.co/" target="_blank">
+            <img
+              className="header-wrapper__IG"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+            />
+          </a>
+        </div>
 
         <div className={sidebar}>
           <div className="sidebar-logos">
@@ -95,12 +103,20 @@ class HeaderComponent extends React.Component<any, any> {
               />
             </Link>
 
-            <a href="https://www.instagram.com/brickhead.co/" target="_blank">
-              <img
-                className="header-wrapper__IG"
-                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
-              />
-            </a>
+            <div>
+              <a href="mailto:bre@brickhead.co" target="_blank">
+                <img
+                  className="header-wrapper__IG__two"
+                  src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/mail.png"
+                />
+              </a>
+              <a href="https://www.instagram.com/brickhead.co/" target="_blank">
+                <img
+                  className="header-wrapper__IG"
+                  src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Instagram-Glyph-White-Logo.wine-min.png"
+                />
+              </a>
+            </div>
           </div>
 
           <ul className="header-wrapper__ul">
@@ -108,6 +124,12 @@ class HeaderComponent extends React.Component<any, any> {
               {" "}
               <Link className="link" to="/work">
                 WORK
+              </Link>
+            </li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/photos">
+                PHOTOS
               </Link>
             </li>
             <li className="header-wrapper__li">
@@ -126,13 +148,9 @@ class HeaderComponent extends React.Component<any, any> {
 
             <li className="header-wrapper__li">
               {" "}
-              <a
-                href="https://www.lightrange.productions/"
-                className="link"
-                target="_blank"
-              >
+              <Link className="link" to="/vfx">
                 VFX
-              </a>
+              </Link>
             </li>
 
             <li className="header-wrapper__li"></li>

@@ -7,8 +7,9 @@
   /* border: 1px solid white; */
   max-width: 100%;
   font-family: "disket_monoregular";
-  opacity: 60%;
+  opacity: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .category-type {
     font-size: 0.8em;
