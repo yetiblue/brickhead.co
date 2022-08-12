@@ -30,6 +30,56 @@ let videoList: VideoList[] = [
   //   thumbnail:
   //     "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/DIZZY1-min.jpg",
   // },
+
+  {
+    category: "Branded",
+    src:
+      "https://player.vimeo.com/video/699090307?h=16f6e6222f&title=0&byline=0&portrait=0",
+    director: "Dir. Zen Pace",
+    title: "True Colors ft. Edgardo Velez",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/truecolors-min.jpeg",
+  },
+  {
+    category: "Branded",
+    src:
+      "https://player.vimeo.com/video/713481351?h=67e50c5ae5&title=0&byline=0&portrait=0",
+    director: "Dir. Nick Freeman",
+    title: "LINK - 'Experience Together'",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/link-2-min.jpeg",
+  },
+  {
+    category: "Music Video",
+    src: "https://www.youtube.com/embed/HEVPXDDDLp0",
+    director: "Dir. Brynn Cartelli",
+    title: "Brynn Cartelli - Gemini",
+    route: "musicvideos",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Gemini-min.jpeg",
+  },
+  {
+    category: "Branded",
+    src:
+      "https://player.vimeo.com/video/721841352?h=e55463e4f5&title=0&byline=0&portrait=0",
+    director: "Dir. Ewurakua Dawson-Amoah",
+    title: "NOITAMALCER - Juneteenth Elegy",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Juneteenth-min.JPG",
+  },
+  {
+    category: "Branded",
+    src:
+      "https://player.vimeo.com/video/718873454?h=2d0f1d5de2&title=0&byline=0&portrait=0",
+    director: "Dir Jarrett Depasquale",
+    title: "LEXUS x Frank White",
+    route: "branded",
+    thumbnail:
+      "https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Lexus-min.png",
+  },
   {
     category: "Music Video",
     src:
