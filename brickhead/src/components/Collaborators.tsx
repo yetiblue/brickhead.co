@@ -137,7 +137,7 @@ function Collaborators(props: any) {
               <p className="about__executives__li__name">Bre Kelly</p>
             </li>
             <li className="about__executives__li">
-              <p className="about__executives__li__p">Head Of Production:</p>
+              <p className="about__executives__li__p">Creative Director:</p>
               <p className="about__executives__li__name">Adrian Sobrado</p>
             </li>
             <li className="about__executives__li">
@@ -157,7 +157,7 @@ function Collaborators(props: any) {
               <p className="about__executives__li__name">Joachim Pfefferkorn</p>
             </li>
             <li className="about__executives__li">
-              <p className="about__executives__li__p">In-House Producers:</p>
+              <p className="about__executives__li__p">In-House Producer:</p>
               <p className="about__executives__li__name">Nora Zubizarreta</p>
             </li>
           </ul>
