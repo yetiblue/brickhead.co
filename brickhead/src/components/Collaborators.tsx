@@ -23,7 +23,6 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/770-7701013_vimeo-staff-pick-logo-copy-vimeo-staff-pick.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -42,7 +41,6 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/The_New_Yorker_logo_WHITE.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -73,7 +71,6 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/EARMILkWHITE.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -92,7 +89,6 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/FADER-logoWHITE.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -105,14 +101,12 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Logo-Rolling-Stone.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/Screen-Shot-2020-01-16-at-11.32.53-AM-1579192439.png"
               />
             </li>
-
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
@@ -125,6 +119,12 @@ function Collaborators(props: any) {
                 src="https://timmyportfolio.s3.us-east-2.amazonaws.com/BrickHead/boom-tv-logoshare.png"
               />
             </li>
+            <li className="accolades-wrapper__li">
+              <img
+                className="accolades__wrapper__img"
+                src=" https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/image.png"
+              />
+            </li>
           </ul>
         </div>
         <hr></hr>
@@ -135,29 +135,30 @@ function Collaborators(props: any) {
             <li className="about__executives__li">
               <p className="about__executives__li__p">Executive Producers:</p>
               <p className="about__executives__li__name">Bre Kelly</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">Creative Director:</p>
               <p className="about__executives__li__name">Adrian Sobrado</p>
             </li>
             <li className="about__executives__li">
               <p className="about__executives__li__p">Head Of Production:</p>
               <p className="about__executives__li__name">Francesco Raffo</p>
             </li>
-            <li className="about__executives__li">
-              <p className="about__executives__li__p">VFX:</p>
-              <p className="about__executives__li__name">Joachim Pfefferkorn</p>
-            </li>
           </ul>
         </div>
         <div className="executives-justify">
           <ul className="about__executives">
             <li className="about__executives__li">
-              <p className="about__executives__li__p">In-House Producers:</p>
-              <p className="about__executives__li__name">Harrison Allen</p>
-              <p className="about__executives__li__name">Nora Zubizarreta</p>
-            </li>
-
-            <li className="about__executives__li">
               <p className="about__executives__li__p">Business Operations:</p>
               <p className="about__executives__li__name">Dion White</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">VFX:</p>
+              <p className="about__executives__li__name">Joachim Pfefferkorn</p>
+            </li>
+            <li className="about__executives__li">
+              <p className="about__executives__li__p">In-House Producer:</p>
+              <p className="about__executives__li__name">Nora Zubizarreta</p>
             </li>
           </ul>
         </div>

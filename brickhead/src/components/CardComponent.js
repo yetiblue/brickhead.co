@@ -6,7 +6,6 @@ import CardInformation from "./CardInformation";
 function CardComponent(props) {
   let renderModal;
   const [modalOpen, setModalOpen] = useState(false);
-  console.log(modalOpen, "modalopen");
   if (modalOpen) {
     document.body.style.overflow = "hidden";
     renderModal = (
@@ -20,7 +19,6 @@ function CardComponent(props) {
   } else {
     document.body.style.overflow = "visible";
   }
-  console.log(props.cardThumbnail, "card thumbnail");
   return (
     <div className="card-wrapper">
       {renderModal}

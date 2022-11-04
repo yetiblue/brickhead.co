@@ -1,18 +1,26 @@
 import "./CardGrid.css";
 import store from "../store/store";
-import { useParams } from "react-router-dom";
-
+import WorkNavigationButtons from "../components/WorkNagivationButtons";
+import { useState } from "react";
 import CardComponent from "./CardComponent";
 
 let storeContent = store.getState();
 
 function CardGrid() {
-  let routeParam = useParams();
-  let cardContent;
-  console.log(routeParam.category, "params");
-
-  console.log("nothing");
-  cardContent = storeContent.map((card) => (
+  const [workNavOption, setWorkNavOption] = useState("");
+  let filteredContent;
+  if (workNavOption === "") {
+    filteredContent = storeContent;
+  } else if (workNavOption === "Music Videos") {
+    filteredContent = storeContent.filter(
+      (works) => works.category === "Music Video"
+    );
+  } else {
+    filteredContent = storeContent.filter(
+      (works) => works.category !== "Music Video"
+    );
+  }
+  const cardContent = filteredContent.map((card) => (
     <div className="justify">
       <li key={card.title} className="card-object">
         <CardComponent
@@ -29,10 +37,13 @@ function CardGrid() {
   let gridContent = <ul className="card-wrapper">{cardContent}</ul>;
 
   return (
-    <div className="justify-cardgrid">
-      <div className="cardgrid-wrapper">
-        {gridContent}
-        {/* <Footer /> */}
+    <div>
+      <WorkNavigationButtons selectedCategory={setWorkNavOption} />
+      <div className="justify-cardgrid">
+        <div className="cardgrid-wrapper">
+          {gridContent}
+          {/* <Footer /> */}
+        </div>
       </div>
     </div>
   );

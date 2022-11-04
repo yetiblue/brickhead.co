@@ -485,18 +485,16 @@ function Collaborators(props: any) {
 
             <a
               className="list__link"
-              href="https://alexfischman.com/
+              href="https://www.henry-dacosta.com/
 "
               target="_blank"
             >
-              <h4 className="list__link">Alex Fischman</h4>
+              <h4 className="list__link">Henry Dacosta</h4>
               <p>
-                Alex Fischman Cárdenas’s career began at 17, he directed the
-                award-winning short film La Vieja Quinta, which traveled across
-                the festival circuit from Los Angeles to Denver to Seoul. Since
-                then Alex has continued to direct short films (Alienación,
-                Ovejas y Lobos) documentaries (Teeth, Starr), and commissioned
-                work (Uber, United Nations, Jacob Jonas The Company, Pangea).
+                Henry’s an Indian, Persian, and Polish director. Raised in the
+                suburbs of New York, and currently living in NYC. His work has
+                been featured in Scientific American Magazine, Complex Media,
+                Canon USA, Film Shortage and many others.
               </p>
             </a>
           </li>
@@ -560,6 +558,26 @@ function Collaborators(props: any) {
                 the world, he worked at Universal Music Group and worked with
                 brands such as New York Fashion Week, Optimum, and Sam Adams. He
                 is currently in development of his first feature film.
+              </p>
+            </a>
+          </li>
+          <li className="about__image__name">
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Audrey%2B5-min-2.png" />
+
+            <a
+              className="list__link"
+              href="https://www.miaoxiwen.com
+"
+              target="_blank"
+            >
+              <h4 className="list__link">Xiwen Miao</h4>
+              <p>
+                Xiwen Miao is an award-winning Chinese writer/director based in
+                New York City. In the branded and commercial world, she has
+                directed for Condé Nast, Vogue and Michael Kors. As a music
+                video director, she collaborates with young, talented artists
+                around the United States. As a narrative filmmaker, she has
+                received over 40 festival selections and numerous awards.
               </p>
             </a>
           </li>

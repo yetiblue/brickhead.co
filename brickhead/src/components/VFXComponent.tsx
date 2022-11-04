@@ -2,6 +2,8 @@ import PhotoGridComponent from "../components/PhotoGridComponent";
 import React from "react";
 import HeaderComponent from "../components/HeaderComponent";
 import CardComponent from "../components/CardComponent";
+import { Link } from "react-router-dom";
+
 class VFXComponent extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
@@ -101,17 +103,21 @@ class VFXComponent extends React.Component<any, any> {
     return (
       <div>
         <div className="description-justify">
-          <p className="about__description__p">
+          <h1 className="header-wrapper__li" style={{ marginTop: "1.5em" }}>
+            <Link className="link" to="">
+              Under Construction...
+            </Link>
+          </h1>
+          {/* <p className="about__description__p">
             All VFX work by Light Range, Brickhead’s in-house VFX team
             <br></br>
-          </p>
+          </p> */}
         </div>
-        <div className="justify-cardgrid">
+        {/* <div className="justify-cardgrid">
           <div className="cardgrid-wrapper">
             {gridContent}
-            {/* <Footer /> */}
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
