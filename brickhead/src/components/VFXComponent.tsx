@@ -105,7 +105,7 @@ class VFXComponent extends React.Component<any, any> {
         <div className="description-justify">
           <h1 className="header-wrapper__li" style={{ marginTop: "1.5em" }}>
             <Link className="link" to="">
-              Under Construction
+              Under Construction...
             </Link>
           </h1>
           {/* <p className="about__description__p">

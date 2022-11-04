@@ -428,6 +428,5 @@ function list(state = videoList, action: any) {
   }
 }
 const store = createStore(list);
-console.log(store.getState(), "store");
 
 export default store;
