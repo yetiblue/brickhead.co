@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import WorkPage from "./pages/WorkPage";
+import MusicVideoPage from "./pages/MusicVideoPage";
+import BrandedVideosPage from "./pages/BrandedVideosPage";
 import PhotoPage from "./pages/PhotoPage";
 import VFXPage from "./pages/VFXPage";
 import CollaboratorsPage from "./pages/CollaboratorsPage";
@@ -18,7 +19,8 @@ ReactDOM.render(
       <Routes>
         {/* <CardGrid /> */}
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/work" element={<WorkPage />}></Route>
+        <Route path="/musicvideos" element={<MusicVideoPage />}></Route>
+        <Route path="/branded" element={<BrandedVideosPage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/photos" element={<PhotoPage />}></Route>
         <Route path="/vfx" element={<VFXPage />}></Route>

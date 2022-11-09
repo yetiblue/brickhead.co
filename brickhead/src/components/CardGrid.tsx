@@ -1,21 +1,21 @@
 import "./CardGrid.css";
 import store from "../store/store";
-import WorkNavigationButtons from "../components/WorkNagivationButtons";
-import { useState } from "react";
+// import WorkNavigationButtons from "../components/WorkNagivationButtons";
+// import { useState } from "react";
 import CardComponent from "./CardComponent";
 
 let storeContent = store.getState();
 
-function CardGrid() {
-  const [workNavOption, setWorkNavOption] = useState("");
+function CardGrid(props: any) {
+  // const [workNavOption, setWorkNavOption] = useState("");
   let filteredContent;
-  if (workNavOption === "Music Videos") {
+  if (props.sortFilter === "Branded") {
     filteredContent = storeContent.filter(
-      (works) => works.category === "Music Video"
+      (works) => works.category !== "Music Video"
     );
   } else {
     filteredContent = storeContent.filter(
-      (works) => works.category !== "Music Video"
+      (works) => works.category === "Music Video"
     );
   }
   const cardContent = filteredContent.map((card) => (
@@ -36,7 +36,7 @@ function CardGrid() {
 
   return (
     <div>
-      <WorkNavigationButtons selectedCategory={setWorkNavOption} />
+      {/* <WorkNavigationButtons selectedCategory={setWorkNavOption} /> */}
       <div className="justify-cardgrid">
         <div className="cardgrid-wrapper">
           {gridContent}

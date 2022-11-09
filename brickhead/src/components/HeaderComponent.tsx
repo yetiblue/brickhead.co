@@ -122,8 +122,14 @@ class HeaderComponent extends React.Component<any, any> {
           <ul className="header-wrapper__ul">
             <li className="header-wrapper__li">
               {" "}
-              <Link className="link" to="/work">
-                WORK
+              <Link className="link" to="/branded">
+                BRANDED
+              </Link>
+            </li>
+            <li className="header-wrapper__li">
+              {" "}
+              <Link className="link" to="/musicvideos">
+                MUSIC VIDEO
               </Link>
             </li>
             <li className="header-wrapper__li">
