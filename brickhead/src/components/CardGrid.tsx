@@ -9,9 +9,7 @@ let storeContent = store.getState();
 function CardGrid() {
   const [workNavOption, setWorkNavOption] = useState("");
   let filteredContent;
-  if (workNavOption === "") {
-    filteredContent = storeContent;
-  } else if (workNavOption === "Music Videos") {
+  if (workNavOption === "Music Videos") {
     filteredContent = storeContent.filter(
       (works) => works.category === "Music Video"
     );
