@@ -127,10 +127,10 @@ function Collaborators(props: any) {
             </li>
           </ul>
         </div>
-        <hr></hr>
-        <h2 className="about__executives__h2">TEAM</h2>
+        {/* <hr></hr> */}
+        {/* <h2 className="about__executives__h2">TEAM</h2> */}
 
-        <div className="executives-justify">
+        {/* <div className="executives-justify">
           <ul className="about__executives">
             <li className="about__executives__li">
               <p className="about__executives__li__p">Executive Producers:</p>
@@ -145,8 +145,8 @@ function Collaborators(props: any) {
               <p className="about__executives__li__name">Francesco Raffo</p>
             </li>
           </ul>
-        </div>
-        <div className="executives-justify">
+        </div> */}
+        {/* <div className="executives-justify">
           <ul className="about__executives">
             <li className="about__executives__li">
               <p className="about__executives__li__p">Business Operations:</p>
@@ -161,7 +161,7 @@ function Collaborators(props: any) {
               <p className="about__executives__li__name">Nora Zubizarreta</p>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="collaborators-wrapper"></div>
       <hr></hr>
