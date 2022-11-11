@@ -308,7 +308,7 @@ function Collaborators(props: any) {
             </a>
           </li>
           <li className="about__image__name">
-            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Starr-min.png" />
+            <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/starrupdate-min.png" />
             <a
               className="list__link"
               href="https://www.gabrielconnelly.com/

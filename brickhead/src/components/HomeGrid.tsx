@@ -8,19 +8,19 @@ function HomeGrid() {
       <ul className="homepage-layout">
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
-            <p>LEXUS x Frank White</p>
-            <h6 className="homepage-director-jack"> Dir. Jarrett Depasquale</h6>
+            <p>ASUS: For Those Who Dare x Complex</p>
+            <h6 className="homepage-director-jack"> Dir. Julian Muller</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Lexus-min.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/asus-min.png" />
         </li>
         <li className="homepage-item-v2">
           <div className="homepage-item-v2-text">
-            <p>NOITAMALCER - Juneteenth Elegy</p>
-            <h6 className="homepage-director"> Dir. Ewurakua Dawson-Amoah</h6>
+            <p>Coca-Cola Dreamworld x KidSuper</p>
+            <h6 className="homepage-director-jack"> Dir. Nick Freeman</h6>
           </div>
 
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Juneteenth-min.JPG" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/kidsuper.png" />
         </li>
         <li className="homepage-item-v1">
           <div className="homepage-item-v1-text">
@@ -29,27 +29,27 @@ function HomeGrid() {
               Gabriel Crawford Connelly + Alex Fischman Cardenas
             </h6>
           </div>
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Starr-min.png" />
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/starrupdate-min.png" />
         </li>
         <li className="homepage-item-v2">
           <div className="homepage-item-v2-text">
+            <p>LEXUS x Frank White</p>
+            <h6 className="homepage-director-jack"> Dir. Jarrett Depasquale</h6>
+          </div>
+
+          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Lexus-min.png" />
+        </li>
+        <li className="homepage-item-v1">
+          <div className="homepage-item-v1-text">
             <p>Abby T - Legos</p>
             <h6 className="homepage-director"> Dir. Henry DaCosta</h6>
           </div>
 
           <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/Legos-min.png" />
         </li>
-        <li className="homepage-item-v1">
-          <div className="homepage-item-v1-text">
-            <p>Jacob Jones The Company - Neptune’s Dreams</p>
-            <h6 className="homepage-director"> Dir. Alex Fischman Cárdenas</h6>
-          </div>
-
-          <img src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-correct-ratio/NeptuneDream-min.png" />
-        </li>
       </ul>
-      <Link className="see-all" to="/work">
-        <p className="see-all">See Select Work</p>
+      <Link className="see-all" to="/about">
+        <p className="see-all">Who We Are</p>
       </Link>
     </div>
   );

@@ -122,7 +122,7 @@ function Collaborators(props: any) {
             <li className="accolades-wrapper__li">
               <img
                 className="accolades__wrapper__img"
-                src=" https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/image.png"
+                src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/image.png"
               />
             </li>
           </ul>
@@ -284,6 +284,34 @@ function Collaborators(props: any) {
             <img
               className="accolades__wrapper__img"
               src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills/Alternative_Press_logo+copy.png"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="          https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Coca-Cola_logo.svg.png
+"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/Ford-Logo.png
+"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/image+(1).png
+"
+            />
+          </li>
+          <li className="accolades-wrapper__li">
+            <img
+              className="accolades__wrapper__img"
+              src="https://timmyportfolio.s3.us-east-2.amazonaws.com/Brickhead-stills-2/image-3.png
+"
             />
           </li>
         </ul>

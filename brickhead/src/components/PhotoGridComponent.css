@@ -93,7 +93,8 @@
   .photo-project-wrapper__scroll__image {
     width: auto;
     height: 40vh;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    margin-right: 5em;
   }
 }
